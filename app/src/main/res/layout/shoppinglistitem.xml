@@ -1,0 +1,265 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:id="@+id/wholeview"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:background="@drawable/customlayout2"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/totalvouchervalue"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBaseline="@+id/tvtotalvouchervalue"
+            android:layout_alignEnd="@+id/totalpts"
+            android:layout_alignBottom="@+id/tvtotalvouchervalue"
+            android:layout_marginEnd="0dp"
+            android:layout_marginBottom="-21dp"
+            android:textColor="#000"
+            android:textSize="@dimen/shopping_cart_price_text" />
+
+        <TextView
+            android:id="@+id/totalma"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBaseline="@+id/tvtotalma"
+            android:layout_alignEnd="@+id/totalpts"
+            android:layout_alignBottom="@+id/tvtotalma"
+            android:layout_marginEnd="0dp"
+            android:layout_marginBottom="-21dp"
+            android:textColor="#000"
+            android:textSize="@dimen/shopping_cart_price_text"
+            android:visibility="gone"/>
+
+        <TextView
+            android:id="@+id/totalmyr"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBaseline="@+id/tvtotalmyr"
+            android:layout_alignEnd="@+id/totalpts"
+            android:layout_alignBottom="@+id/tvtotalmyr"
+            android:layout_marginEnd="0dp"
+            android:layout_marginBottom="-20dp"
+            android:textColor="#000"
+            android:textSize="@dimen/shopping_cart_price_text" />
+
+        <RelativeLayout
+            android:id="@+id/img_ly"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true">
+
+            <ImageView
+                android:id="@+id/img"
+                android:layout_width="85dp"
+                android:layout_height="85dp"
+                android:layout_marginStart="10dp"
+                android:layout_marginEnd="10dp" />
+
+            <ImageView
+                android:id="@+id/image_label_voucher"
+                android:layout_width="35dp"
+                android:layout_height="35dp"
+                android:layout_alignEnd="@+id/img"
+                android:layout_alignBottom="@+id/img"
+                android:visibility="gone"
+                android:src="@drawable/label_mbooster_voucher" />
+
+        </RelativeLayout>
+
+
+        <TextView
+            android:id="@+id/name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="10dp"
+            android:layout_toStartOf="@+id/deleteitem"
+            android:layout_toEndOf="@+id/img_ly"
+            android:minLines="2"
+            android:text="productname"
+            android:textColor="#414042"
+            android:textSize="12dp" />
+
+        <TextView
+            android:id="@+id/productby"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/tvtotal"
+            android:layout_marginStart="0dp"
+            android:layout_marginTop="3dp"
+            android:layout_toEndOf="@+id/img_ly"
+            android:text=""
+            android:textColor="#414042"
+            android:textSize="8dp" />
+
+        <ImageView
+            android:id="@+id/down"
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:layout_below="@+id/ly1"
+            android:layout_alignStart="@+id/ly1"
+            android:layout_alignEnd="@+id/ly1"
+            android:src="@drawable/chevrondown" />
+
+        <ImageView
+            android:id="@+id/deleteitem"
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:layout_alignParentEnd="true"
+            android:layout_marginStart="15dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginEnd="5dp"
+            android:src="@drawable/removefromlist" />
+
+        <ImageView
+            android:id="@+id/imageView4"
+            android:layout_width="35dp"
+            android:layout_height="20dp"
+            android:layout_below="@+id/name"
+            android:layout_alignEnd="@+id/ly1"
+            android:layout_toEndOf="@+id/img_ly"
+            android:src="@drawable/chevronup" />
+
+        <LinearLayout
+            android:id="@+id/ly1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/imageView4"
+            android:layout_toEndOf="@+id/img_ly"
+            android:background="@drawable/customlayout3">
+
+            <EditText
+                android:id="@+id/qty"
+                android:layout_width="35dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="5dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginEnd="5dp"
+                android:layout_marginBottom="5dp"
+                android:background="#fff"
+                android:maxLines="1"
+                android:textAlignment="center"
+                android:textSize="@dimen/shopping_cart_price_text" />
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/tvunitprice"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/ly1"
+            android:layout_alignEnd="@+id/tvtotal"
+            android:layout_marginStart="40dp"
+            android:text="@string/unit_price"
+            android:textColor="#000"
+            android:textSize="@dimen/shopping_cart_price_text" />
+
+        <TextView
+            android:id="@+id/tvtotal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/tvtotalmyr"
+            android:layout_marginTop="5dp"
+            android:layout_marginEnd="14dp"
+            android:layout_toStartOf="@+id/pts"
+            android:text="@string/total"
+            android:textColor="#eba63f"
+            android:textSize="@dimen/shopping_cart_price_text" />
+
+        <TextView
+            android:id="@+id/tvshippingfee"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/tvtotal"
+            android:layout_alignStart="@+id/ly1"
+            android:layout_marginTop="10dp"
+            android:text="@string/shipping_fee"
+            android:textColor="@android:color/holo_green_light"
+            android:textSize="@dimen/shopping_cart_price_text" />
+
+        <TextView
+            android:id="@+id/pts"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBaseline="@+id/tvunitprice"
+            android:layout_alignEnd="@+id/totalpts"
+            android:layout_alignBottom="@+id/tvunitprice"
+            android:textColor="#000"
+            android:textSize="@dimen/shopping_cart_price_text" />
+
+        <TextView
+            android:id="@+id/totalpts"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBaseline="@+id/tvtotal"
+            android:layout_alignEnd="@+id/deleteitem"
+            android:layout_alignBottom="@+id/tvtotal"
+            android:textColor="#eba63f"
+            android:textSize="@dimen/shopping_cart_price_text" />
+
+        <TextView
+            android:id="@+id/shippingfee"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBaseline="@+id/tvshippingfee"
+            android:layout_alignBottom="@+id/tvtotal"
+            android:layout_toEndOf="@+id/tvshippingfee"
+            android:textSize="@dimen/shopping_cart_price_text" />
+
+        <TextView
+            android:id="@+id/shipping_method"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/tvshippingfee"
+            android:layout_marginStart="0dp"
+            android:layout_marginTop="3dp"
+            android:layout_toEndOf="@+id/img_ly"
+            android:text="shipping method"
+            android:textColor="#eba63f" />
+
+        <TextView
+            android:id="@+id/tvtotalvouchervalue"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/imageView4"
+            android:layout_alignEnd="@+id/tvtotal"
+            android:layout_marginTop="5dp"
+            android:layout_marginEnd="-1dp"
+            android:text="@string/total_voucher_value"
+            android:textSize="@dimen/shopping_cart_price_text"
+            android:textColor="#000" />
+
+        <TextView
+            android:id="@+id/tvtotalma"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/tvtotalvouchervalue"
+            android:layout_alignEnd="@+id/tvtotal"
+            android:layout_marginTop="5dp"
+            android:layout_marginEnd="0dp"
+            android:text="@string/total_mairtime"
+            android:textSize="@dimen/shopping_cart_price_text"
+            android:textColor="#000"
+            android:visibility="gone"/>
+
+        <TextView
+            android:id="@+id/tvtotalmyr"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/tvtotalma"
+            android:layout_alignEnd="@+id/tvtotal"
+            android:layout_marginTop="5dp"
+            android:layout_marginEnd="0dp"
+            android:text="@string/total_myr"
+            android:textSize="@dimen/shopping_cart_price_text"
+            android:textColor="#000" />
+
+
+    </RelativeLayout>
+</LinearLayout>

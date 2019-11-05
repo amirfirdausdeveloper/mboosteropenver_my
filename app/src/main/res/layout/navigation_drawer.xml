@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:clickable="true"
+    android:orientation="vertical"
+    android:id="@+id/drawer_ll"
+    tools:ignore="MissingPrefix">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_alignBottom="@+id/ly"
+            android:scaleType="fitXY"
+            android:id="@+id/menu_header"
+            android:src="@drawable/gradient_orange"/>
+
+        <ImageView
+            android:id="@+id/mblogo"
+            android:src="@drawable/mblogo_white"
+            android:layout_width="180dp"
+            android:layout_height="70dp"
+            android:layout_alignBottom="@+id/ly"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+             />
+
+        <LinearLayout
+            android:id="@+id/ly"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:visibility="invisible">
+
+            <ImageView
+                android:id="@+id/imageView"
+                android:layout_width="150dp"
+                android:layout_height="70dp"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="10dp"
+                android:src="@drawable/cny_mmspot_logo" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height=".5dp"
+                android:layout_marginEnd="75dp"
+                android:layout_marginStart="75dp"
+                android:layout_marginTop="11dp"
+                android:background="@android:color/white" />
+
+            <TextView
+                android:id="@+id/tvpoint"
+                fontPath="fonts/gotham_book.ttf"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="10dp"
+                android:text="@string/you_have"
+                android:textColor="@android:color/white"
+                android:textSize="14dp" />
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginBottom="10dp">
+
+                <TextView
+                    android:id="@+id/point"
+                    fontPath="fonts/gotham_book_bold.ttf"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:gravity="bottom"
+                    android:text="@string/mairtime"
+                    android:textColor="@android:color/white"
+                    android:textSize="20dp" />
+
+                <TextView
+                    android:id="@+id/pointtv"
+                    fontPath="fonts/gotham_book.ttf"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignBottom="@+id/point"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginBottom="2dp"
+                    android:layout_marginStart="5dp"
+                    android:layout_toEndOf="@+id/point"
+                    android:gravity="bottom"
+                    android:text="@string/mairtime"
+                    android:textColor="@android:color/white"
+                    android:textSize="15dp" />
+
+            </RelativeLayout>
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_below="@id/ly"
+            android:layout_weight="1"
+
+            android:background="#f6f6f6">
+            <!--android:background="#fcd437"-->
+
+            <ExpandableListView
+                android:id="@+id/expandableListView"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:divider="@null"
+                android:dividerHeight="0.5dp" />
+            <!--android:divider="@android:color/black"-->
+
+
+        </LinearLayout>
+
+        <ImageView
+            android:id="@+id/mmspot_app"
+            android:layout_width="55dp"
+            android:layout_height="55dp"
+            android:layout_alignBottom="@+id/ly"
+            android:layout_alignEnd="@+id/ly"
+            android:layout_margin="10dp"
+            android:src="@drawable/mmspot_applogo"
+            android:visibility="gone" />
+
+    </RelativeLayout>
+
+</LinearLayout>

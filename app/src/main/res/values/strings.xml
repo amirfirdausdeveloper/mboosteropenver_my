@@ -1,0 +1,409 @@
+<resources xmlns:tools="http://schemas.android.com/tools" tools:ignore="MissingTranslation">
+    <string name="app_name">Mbooster.my</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="register_sign_in">Register</string>
+    <string name="currency">MYR&#160;</string>
+    <string name="home">Home</string>
+    <string name="purchase_history">Order History</string>
+    <string name="shopping_bag">Shopping Bag</string>
+    <string name="shopping_bag_kwave">KWave 3 Shopping Bag</string>
+    <string name="mmspot">MMspot</string>
+    <string name="account">My Account</string>
+    <string name="button_redeem">Redeem</string>
+    <string name="welcome">Welcome</string>
+    <string name="mmspot_id_username">MMspot ID/Username</string>
+    <string name="password">Password</string>
+    <string name="remember_me">Remember me</string>
+    <string name="let_s_start">Let\'s start</string>
+    <string name="delivery_info">Delivery Information</string>
+    <string name="search_mbooster">Search Mbooster</string>
+    <string name="all_categories">All Categories</string>
+    <string name="ca_telecommunication">Telecommunication</string>
+    <string name="ca_electronic">Electronic Gadget</string>
+    <string name="ca_fashion">Fashion</string>
+    <string name="ca_travel">Travel</string>
+    <string name="ca_homeappliances">Home Appliances</string>
+    <string name="ca_outdoorssport">Outdoors &amp; Sport</string>
+    <string name="ca_voucher">Voucher</string>
+    <string name="ca_others">Others</string>
+    <string name="you_have">You have</string>
+    <string name="edit_profile">Edit Profile</string>
+    <string name="phone_number">Phone Number</string>
+    <string name="email">Email / MMspot ID</string>
+    <string name="address_1">Address 1</string>
+    <string name="address_2">Address 2</string>
+    <string name="city">City</string>
+    <string name="postcode">Postcode</string>
+    <string name="state">State</string>
+    <string name="country">Country</string>
+    <string name="submit">Submit</string>
+    <string name="mmspot_id">MMspot ID</string>
+    <string name="address">Address</string>
+    <string name="account_logout">Account Logout</string>
+    <string name="are_you_sure">Are You Sure?</string>
+    <string name="logging_out">Logging Out</string>
+    <string name="yes">Yes</string>
+    <string name="no">No</string>
+    <string name="take_photo">Take Photo</string>
+    <string name="choose_photo">Choose Photo</string>
+    <string name="cancel">Cancel</string>
+    <string name="cannot_crop">Sorry–your device doesn’t support the crop action !</string>
+    <string name="redemptionss">Redemption</string>
+    <string name="check_out">Check Out</string>
+    <string name="check_out_kwave">KWave 3 Check Out</string>
+    <string name="shipping_details">Shipping Details</string>
+    <string name="grand_total_gst_incl">Grand Total(GST incl.):</string>
+    <string name="payment_method">Payment Method</string>
+    <string name="credit_card">Credit Card</string>
+    <string name="online_banking">Online Banking</string>
+    <string name="enter_mmspot_pw">Kindly enter your MMspot account password to proceed payment</string>
+    <string name="mmspot_confirmation">MMspot Confirmation</string>
+    <string name="confirm">Confirm</string>
+    <string name="mmspot_password">MMspot Password</string>
+    <string name="comming_soon">Coming soon</string>
+    <string name="edit_shipping_address">&#160;&#160;Edit Shipping Address&#160;&#160;</string>
+    <string name="unit_price">Unit Price</string>
+    <string name="total">Total</string>
+    <string name="shipping_fee">Shipping fee:&#160;</string>
+    <string name="purchase_detail">Purchase Detail</string>
+    <string name="payment_nsuccessful">Payment\nSuccessful</string>
+    <string name="product">Product</string>
+    <string name="redemption_page">Redemption Page</string>
+    <string name="confirm_redemption">Confirm Redemption</string>
+
+
+    <string name="in_stock">In stock</string>
+    <string name="key_features">Key Features</string>
+    <string name="product_description">Product Description</string>
+    <string name="buy_now">BUY NOW</string>
+    <string name="redeem_now">REDEEM NOW</string>
+    <string name="add_to_bag">Add to Bag</string>
+    <string name="shipping_free_n">Shipping Free \n</string>
+    <string name="nationwide_n">Nationwide \n</string>
+    <string name="good_sold_are_n_not_refundable">Good sold are\nnot refundable</string>
+    <string name="qty">Quantity</string>
+    <string name="color">Color</string>
+    <string name="redeem_by">Redeem By</string>
+    <string name="there_is_no_availalbe_stock">There is no available stock for this product now.</string>
+    <string name="invalid_qty">Invalid Quantity</string>
+    <string name="original_price">Original Price:&#160;</string>
+    <string name="out_of_stock">Out of Stock</string>
+    <string name="search">Search</string>
+    <string name="no_purchase_transaction_record_found">No purchase transaction record found</string>
+    <string name="order_processing">\u0020\u0020Processing\u0020\u0020</string>
+    <string name="order_shipped">\u0020\u0020Order Shipped\u0020\u0020</string>
+    <string name="order_completed">\u0020\u0020Order Completed\u0020\u0020</string>
+    <string name="summary">Summary</string>
+    <string name="name">Name</string>
+    <string name="contact">Contact</string>
+    <string name="update">Update</string>
+    <string name="please_fill_in_all_blanks">Please fill in all blanks</string>
+    <string name="request_an_item">Request An Item</string>
+    <string name="request_item">Request Item</string>
+    <string name="redemption">Redemption</string>
+    <string name="item_name">Item Name</string>
+    <string name="item_description">Item Description</string>
+    <string name="price_range">Price Range</string>
+    <string name="item_image">Item Image</string>
+    <string name="please_upload_an_image">Please upload a image</string>
+    <string name="request_this_item_q">Request this item?</string>
+    <string name="select_file">Select File</string>
+    <string name="request_history">Request History</string>
+    <string name="oops_no_item_requested_yet">Oops, no item requested yet.</string>
+    <string name="pending">Pending</string>
+    <string name="pending_verify">Click to Verify</string>
+    <string name="verified">Verified</string>
+    <string name="approved">Approved</string>
+    <string name="rejected">Rejected</string>
+    <string name="oops_there_is_nothing_in_your_shopping_bag">Oops, there is nothing in your shopping bag.</string>
+    <string name="handling_amp_transaction_fee"><![CDATA[Total Handling & Shipping Charges]]></string>
+    <string name="are_you_sure_to_checkout">Are you sure to check out?</string>
+    <string name="are_you_sure_to_redeem">Are you sure to redeem?</string>
+    <string name="invalid_mairtime">Invalid M-A. Please reload to proceed payment.</string>
+    <string name="you_have_reach_stock_limit">You have reach the stock limit</string>
+    <string name="not_updated">Not updated. Please try again</string>
+    <string name="are_you_sure_to_delete_this_item">Are you sure to delete this item?</string>
+    <string name="category">Category</string>
+    <string name="title_redemption">Product Redemption</string>
+    <string name="handling_amp_shipping_charges"><![CDATA[HANDLING & SHIPPING CHARGES :]]></string>
+    <string name="subtotal">SUBTOTAL :</string>
+    <string name="courier_service">Courier Company:</string>
+    <string name="tracking_code">Tracking Code:</string>
+    <string name="invalid_email">Invalid Email</string>
+    <string name="product_coming_soon">Product Coming Soon</string>
+    <string name="alternative_number">Alternative Number</string>
+    <string name="first_time_login">First Time Login</string>
+    <string name="billing_address">Billing Address</string>
+    <string name="shipping_address">Shipping Address</string>
+    <string name="same_as_shipping_address">Same as shipping address</string>
+    <string name="my_profile">My Profile</string>
+    <string name="my_address">My Address</string>
+    <string name="edit">Edit</string>
+    <string name="edit_billing_address" translatable="false">Edit Billing Address</string>
+    <string name="exit_application">Exit Application</string>
+    <string name="order_refunds">\u0020\u0020Order Refunds\u0020\u0020</string>
+    <string name="order_cancel2">\u0020\u0020Order Cancel\u0020\u0020</string>
+    <string name="billing_details">Billing Details</string>
+    <string name="product_specification">Product Specification</string>
+    <string name="whats_in_the_box">What\'s in the box</string>
+    <string name="warranty">Warranty</string>
+    <!--<string name="change_english">更換中文</string>-->
+    <string name="change_english">Change Language to Chinese</string>
+    <string name="order_process">\u0020\u0020Order Processing\u0020\u0020</string>
+    <string name="invoice_id">Invoice ID</string>
+    <string name="order_id">Order Id :</string>
+    <string name="no_network_notification">Network currently not available. Please try again later</string>
+    <string name="try_again">Try Again</string>
+    <string name="exit">Exit</string>
+    <string name="login_apps">If you don\'t have an MMspot account, click here to download the app and sign up now!  MMspot link: http://mmspot.com/</string>
+    <string name="voucher">e-Voucher</string>
+    <string name="enter_voucher">Please enter your Mbooster voucher code</string>
+    <string name="enter_voucher_to_submit">Enter voucher code to submit.</string>
+    <string name="total_voucher_amount">Total e-Voucher Value</string> <!-- CHECK HERE -->
+    <string name="total_voucher_discount">Total voucher discount:</string>
+    <string name="remove">Remove</string>
+    <string name="voucher_used">Voucher Used</string>
+    <string name="voucher_tips_text1">It\'s time to use your Mbooster voucher!</string>
+    <string name="voucher_tips_text2">Hi, your Mbooster voucher redemption is coming, or you have a voucher about to expire. Please redeem your voucher here before it expiry:)</string>
+    <string name="you_have_not_entered_any_voucher">You have not entered any voucher</string>
+    <string name="mbooster_voucher_code">Mbooster Voucher Code</string>
+    <string name="total_voucher_value">Total e-Voucher Value</string>
+    <string name="paid">Total paid amount:</string>
+    <string name="pay_now">Pay Now</string>
+    <string name="mbooster_voucher_entitlement">Mbooster Voucher Entitlement: RM 10 x 2</string>
+    <string name="permission_denied">Permissions denied.</string>
+    <string name="player_error">Error initializing YouTube player: %s</string>
+    <string name="seek_to">Jump To</string>
+    <string name="seek_to_hint">Seconds</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="help_and_contact_us"><![CDATA[Help & Contact Us]]></string>
+    <string name="happening">Happening</string>
+    <string name="hello">Hello!</string>
+    <string name="we_re_always_here_to_help_you">We’re always here to help you.</string>
+    <string name="customer_care_line">Customer Care line</string>
+    <string name="monday_friday_except_public_holiday">Monday - Friday (Except Public Holiday)</string>
+    <string name="you_can_also_email_us_at">You can also email us at</string>
+    <string name="no_record_found">No Record Found</string>
+    <string name="no_product_found">No Product Found</string>
+    <string name="ends_in">ENDS IN:</string>
+    <string name="days">DAYS</string>
+    <string name="hrs">HRS</string>
+    <string name="min">MIN</string>
+    <string name="sec">SEC</string>
+    <string name="start_in">START IN:</string>
+    <string name="set">Set</string>
+    <string name="view_all">View All</string>
+    <string name="lion_dance_booking">Lion Dance Booking</string>
+    <string name="notify_update_addr">Please update your shipping and billing address</string>
+    <string name="please_complete_shipping_addr">Please complete your shipping and billing address</string>
+    <string name="payment">Payment</string>
+    <string name="payment_not_successful_ninvalid_token_nkindly_contact_to_our_customer_service">Payment failed.\nKindly contact to our customer service.</string>
+    <string name="select_address">Select Address</string>
+    <string name="add">Add</string>
+    <string name="change_shipping_address">&#160;&#160;Change Shipping Address&#160;&#160;</string>
+    <string name="pleasecompleteaddress">Please complete this address for further actions</string>
+    <string name="are_you_sure_delete_address">Are you sure delete this address?</string>
+    <string name="this_action_cannot_be_undone">**This action CANNOT be undone</string>
+    <string name="delete_address">Delete Address</string>
+    <string name="resend_verification_code">Resend Verify Email</string>
+    <string name="no_ship_bill_default">No default Shipping and Billing address is set</string>
+    <string name="no_ship_default">No default Shipping address is set</string>
+    <string name="no_bill_default">No default Billing address is set</string>
+    <string name="set_as_shipping_address">Set as Shipping Address</string>
+    <string name="set_as_billing_address">Set as Billing Address</string>
+    <string name="delete_this_address">Delete This Address</string>
+    <string name="edit_address">Edit Address</string>
+    <string name="add_address">Add Address</string>
+    <string name="verify_address">Verify Address</string>
+    <string name="verification_code">Verification Code</string>
+    <string name="address_info">Address Info</string>
+    <string name="pleaseenterverificationcode">Please enter verification code to verify.</string>
+    <string name="please_set_default_billing">Please set your default Billing address in your profile</string>
+    <string name="please_set_default_shipping_and_billing">Please set your default Shipping and Billing address in your profile</string>
+    <string name="please_set_default_shipping">Please set your default Shipping address in your profile</string>
+    <string name="login">Login</string>
+    <string name="signin">Sign In</string>
+    <string name="register">Register</string>
+    <string name="forgot_password">Forgot Password?</string>
+    <string name="forget_password">Forget Password</string>
+    <string name="shipping">Shipping</string>
+    <string name="billing">Billing</string>
+    <string name="no_address_found">No address found</string>
+    <string name="currently_seleted_this_address">Currently selected this address</string>
+    <string name="currently_selected">Currently Selected</string>
+    <string name="are_u_sure_select_this_shipping_address">Are you sure select this address as your shipping address?</string>
+    <string name="password_mismatch">Password mismatch! Please check your password</string>
+    <string name="confirm_password">Confirm Password</string>
+    <string name="passwordatleast6char">Password must be at least 6 characters long and must contain at least 1 number and 1 letter and no space</string>
+    <string name="change_password">Change Password</string>
+    <string name="please_sign_in">Please sign in to continue purchase. Thank you</string>
+    <string name="password_reset">Password Reset</string>
+    <string name="areyousurelogout">Are you sure you want to logout from mbooster?</string>
+    <string name="new_password">New Password</string>
+    <string name="current_password">Current Password</string>
+    <string name="please_enter_your_current_password">Please enter your current password</string>
+    <string name="your_new_password_cannot_same_with_old_one">Your new password cannot same with your current password</string>
+    <string name="please_enter_email">Please enter Email</string>
+    <string name="please_enter_a_valid_email">Please enter a valid Email</string>
+    <string name="please_enter_name">Please enter Name</string>
+    <string name="default_as">Default as:</string>
+    <string name="or">OR</string>
+    <string name="please_login_to_continue">Please log in to continue</string>
+    <string name="login_required">Log in required</string>
+    <string name="please_fill_in">Please fill in\u0020</string>
+    <string name="ic_no">IC No.</string>
+    <string name="please_update_your_email_via_mmspot">Please update your email via MMspot</string>
+    <string name="update_email">Update Email</string>
+    <string name="if_the_name_submitted_is_not_same_as_per_ic_mbooster_reserves_the_right_to_refuse_product_delivery">**If the name submitted is not same as per IC, Mbooster reserves the right to refuse product delivery.</string>
+    <string name="close">Close</string>
+    <string name="certified">Certified</string>
+    <string name="certified_fulltext">We guarentee that all of the products you see on Mbooster are 100% genuine and are sourced directly from either the manufacturer or an officially approved distributor.</string>
+    <string name="convenience">Convenience</string>
+    <string name="convenience_fulltext">Mbooster has engaged the best carriers in the business to make sure your order gets to you on time.</string>
+    <string name="worry_free">Worry Free</string>
+    <string name="worry_free_fulltext">Mbooster always strives to give you an amazing experience by presenting you with digital lifestyle option to spend your MMSPOT.</string>
+    <string name="shop_safely"><![CDATA[Shop Safely & Securely]]></string>
+    <string name="shop_safely_fulltext">Mbooster takes great pride in offering a safe and secure online shopping experience.</string>
+    <string name="skip">SKIP</string>
+    <string name="make_default_billing_address">Make default billing address</string>
+    <string name="make_default_shipping_address">Make default shipping address</string>
+    <string name="order_cancel">\u0020\u0020Order Cancel\u0020\u0020</string>
+    <string name="delivery">Delivery</string>
+    <string name="selfcollect">Self Collect \n Self Collection Time: 12pm-4pm, 20 Jan 2019 \n Location: Level 4, Wisma Bentley Music, 3, Jalan PJU 7/2, Mutiara Damansara, Selangor.</string>
+    <string name="selfcollectinfo">Self Collection Time: 12pm-4pm, 20 Jan 2019 \n Location: Level 4, Wisma Bentley Music, 3, Jalan PJU 7/2, Mutiara Damansara, Selangor.</string>
+    <string name="total_outstanding_amount">Total outstanding amount</string>
+    <string name="use_voucher">Edit e-Voucher</string>
+    <string name="evoucher_listing">Mbooster eVoucher</string>
+    <string name="credit_wallet">Reward Point</string>
+    <!--<string name="mairtime">M-Airtime</string>-->
+    <string name="mairtime">M-A</string>
+
+    <string name="total_mairtime">Total M-A</string>
+    <string name="total_myr">Total MYR</string>
+
+    <string name="mmspot_bind_url">https://mmspot.com/mti/web/sync?</string>
+
+    <!--Register-->
+    <string name="register_gender">Pick a gender</string>
+    <string name="register_male">Male</string>
+    <string name="register_female">Female</string>
+
+    <!--ProductModel-->
+    <string name="product_rewards_earn">Rewards Earn:</string>
+    <string name="product_options">Options</string>
+    <string name="product_or">OR</string>
+    <string name="product_select_payment">Select Payment</string>
+    <string name="product_select_option">Option</string>
+    <string name="product_qty">QTY</string>
+
+    <!--Main-->
+    <string name="tab_convert">Convert</string>
+    <string name="tabs_rewards">Rewards</string>
+
+    <!--Profile-->
+    <string name="profile_bind_acocunt">Bind Account</string>
+    <string name="profile_mti_prefix">Your member ID: </string>
+
+    <!--MMSpot Account Bind-->
+    <string name="mmspot_bind_acount">Bind Account</string>
+
+    <!--Drawer List-->
+    <string name="drawer_convert_to_ev">Convert to e-Voucher</string>
+    <string name="drawer_order_n_transaction">Order &amp; Transaction</string>
+    <string name="drawer_tnc">Terms &amp; Conditions</string>
+
+    <!--Request an item-->
+    <string name="request_click_to_upload">Click To Upload Image</string>
+
+    <!--Rewards-->
+    <string name="rewards_you_have">You have</string>
+    <string name="rewards_m_a">M-A</string>
+    <string name="rewards_cr">MP</string>
+    <string name="rewards_ev">eVM</string>
+    <string name="rewards_total_value">Total Value :</string>
+    <string name="mbooster_evoucher_prefix">Mbooster e-Voucher eVM</string>
+    <string name="mbooster_evoucher_count_postfix">pcs</string>
+    <string name="mbooster_evoucher_sample">100pcs</string>
+
+    <string name="rewards_mmspot_title">MMspot M-A</string>
+    <string name="rewards_mbooster_credit">Mbooster Point</string>
+    <string name="rewards_mbooster_evcouher">Mbooster \ne-Voucher</string>
+
+    <!--Order History-->
+    <string name="total_ma_value">Total Amount Paid (M-A):</string>
+
+    <!--Conversion-->
+    <string name="conversion_title">Convert to eVM</string>
+    <string name="conversion_header">Convert to Mbooster e-Voucher</string>
+    <string name="conversion_convert">convert</string>
+    <string name="conversion_total_value">Total Value :</string>
+    <string name="conversion_balance">Balance :</string>
+    <string name="conversion_confirm">Confirm Convert</string>
+    <string name="conversion_default_0pcs">0pcs</string>
+    <string name="conversion_pcs">pcs</string>
+    <string name="conversion_insufficient">Insufficient Mbooster Point.</string>
+    <string name="conversion_nopoint">Please select e-Voucher to convert</string>
+    <string name="conversion_pop_title">Number of exchange</string>
+
+    <!--Shopping Bag-->
+    <string name="shopping_bag_ship_to">Ship To</string>
+    <string name="shopping_bag_bill_default">Bill to default billing address</string>
+    <string name="shopping_bag_cp_earn">Total Mbooster Point Earn</string>
+    <string name="shopping_select_shipping_address">Select Shipping Address</string>
+    <string name="shopping_select_billing_address">Select Billing Address</string>
+
+    <!--Select VoucherModel-->
+    <string name="select_voucher_total_value">Total selected e-Voucher value : </string>
+    <string name="select_voucher_total_allow">Total quantity allowed :</string>
+    <string name="select_voucher_selected_quantity">Total selected e-Voucher value :</string>
+    <string name="select_voucher_selected_value_allow">Total e-Voucher value allowed :</string>
+    <string name="select_voucher_available">Available eVM $VALUE$ pcs</string>
+    <string name="select_voucher_selected">Selected</string>
+    <string name="select_save">Save</string>
+    <string name="select_voucher_exceed_limit">Total voucher quantity cannot be more than $VALUE$ for this product. Do you wish to proceed to use the voucher(s)?</string>
+    <string name="select_voucher_exceed_value">Total e-Voucher cannot be more $VALUE$ for this product. Do you wish to proceed to use the e-Voucher(s)?</string>
+
+    <!---->
+    <string name="MYR_CURRENCY_PREFIX">RM </string>
+    <string name="postfix_ev">eVM</string>
+    <string name="postfix_pv">pv</string>
+    <string name="postfix_mp">mp</string>
+
+    <!--VoucherModel List-->
+    <string name="voucher_status">Status</string>
+    <string name="voucher_amount">e-Voucher Amount</string>
+    <string name="voucher_used_date">Used Date</string>
+    <string name="voucher_expiry_date">Expiry Date</string>
+
+    <string name="tnc_url">https://mbooster.my/stgmb/term_condition1</string>
+
+    <!--activity_register.xml-->
+    <string name="register_welcome">Hey there! You can start by creating a new account</string>
+    <string name="register_fname">Full Name*</string>
+    <string name="register_email">Email Address*</string>
+    <string name="register_password">Password*</string>
+    <string name="register_cpassword">Confirm Password*</string>
+    <string name="register_birthday">Birthday(DD/MM/YYYY)</string>
+    <string name="register_gder">Gender</string>
+
+    <!--main_activity.xml-->
+    <string name="login_sign_up_btn">Login / Register</string>
+
+    <string name="select_ev10_quantity">Select eVM10 Quantity</string>
+    <string name="select_ev30_quantity">Select eVM30 Quantity</string>
+    <string name="select_ev50_quantity">Select eVM50 Quantity</string>
+
+    <string name="ifyoudonthavemmspot">*If you don\'t have an MMspot account,</string>
+    <string name="ifyoudonthavemmspot2">click here</string>
+    <string name="ifyoudonthavemmspot3">to download the MMspot app &amp; sign up now!</string>
+
+
+    <string name="malaysia">Malaysia</string>
+
+
+    <string name="Topup_Mcalls_No">Topup Mcalls No</string>
+    <string name="please_enter_topup_mcalls_no">Please enter Topup Mcalls No.</string>
+</resources>

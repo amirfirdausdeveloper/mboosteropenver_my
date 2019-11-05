@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:ignore="MissingPrefix">
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:layout_width="@dimen/toolbars_circle_icon"
+        android:layout_height="@dimen/toolbars_circle_icon"
+        android:src="@mipmap/burger_menu_icon_"
+        android:layout_centerVertical="true"
+        android:layout_marginStart="15dp"
+        app:civ_circle_background_color="@color/colorOrangeTitle"
+        app:civ_border_width="0dp"
+        app:civ_border_color="@android:color/transparent"/>
+
+    <ImageView
+        android:layout_width="@dimen/toolbars_logo_w"
+        android:layout_height="@dimen/toolbars_logo_h"
+        android:layout_centerInParent="true"
+        android:src="@drawable/mb_new_logo2" />
+
+    <RelativeLayout
+        android:id="@+id/rllogin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="end"
+        android:layout_margin="10dp"
+        android:layout_marginEnd="15dp"
+        android:layout_alignParentEnd="true"
+        android:layout_centerVertical="true"
+        android:visibility="gone"
+        android:background="@drawable/rounded_login_bg">
+
+        <TextView
+            android:id="@+id/tvlogin"
+            fontPath="fonts/gotham_book_bold.ttf"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignEnd="@+id/imgrequestitem"
+            android:layout_alignStart="@+id/imgrequestitem"
+            android:layout_centerInParent="true"
+            android:layout_margin="10dp"
+            android:text="Login / Sign Up"
+            android:textColor="#fff" />
+
+        <ImageView
+            android:id="@+id/imgrequestitem"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/request_item"
+            android:visibility="gone" />
+
+    </RelativeLayout>
+
+</RelativeLayout>

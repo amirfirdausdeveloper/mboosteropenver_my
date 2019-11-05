@@ -1,0 +1,301 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:ignore="MissingPrefix"
+    tools:context="org.app.mbooster.activity_folder.MyAddressEdit">
+
+    <android.support.design.widget.AppBarLayout
+        android:id="@+id/toolbar1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:theme="@style/AppTheme.AppBarOverlay">
+
+        <android.support.v7.widget.Toolbar
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="?android:attr/actionBarSize"
+            app:popupTheme="@style/AppTheme.PopupOverlay">
+
+            <TextView
+                android:id="@+id/toolbar_title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginBottom="10dp"
+                android:text="@string/my_address"
+                android:textColor="@color/colorbutton"
+                android:textSize="20dp" />
+
+            <TextView
+                android:id="@+id/add_address"
+                android:layout_width="35dp"
+                android:layout_height="35dp"
+                android:layout_gravity="end"
+                android:layout_marginEnd="15dp"
+                android:background="@drawable/icon_plus_orange"
+                android:padding="10dp"
+                android:textSize="30dp"
+                android:textStyle="bold" />
+
+        </android.support.v7.widget.Toolbar>
+
+    </android.support.design.widget.AppBarLayout>
+
+    <RelativeLayout
+        android:id="@+id/noshipbill"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/toolbar1"
+        android:background="@android:color/holo_red_dark"
+        android:visibility="gone">
+
+        <TextView
+            android:id="@+id/tvnoshipbill"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:layout_margin="8dp"
+            android:text="No Shipping or Billing is set"
+            android:textColor="#fff"
+            android:textSize="14dp" />
+    </RelativeLayout>
+
+    <info.hoang8f.android.segmented.SegmentedGroup xmlns:segmentedgroup="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/segmented2"
+        android:background="#fef5e6"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/noshipbill"
+        android:layout_marginEnd="10dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="10dp"
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:weightSum="2"
+        segmentedgroup:sc_border_width="0dp"
+        segmentedgroup:sc_checked_text_color="@android:color/white"
+        segmentedgroup:sc_corner_radius="0dp"
+        segmentedgroup:sc_tint_color="@color/colorbutton">
+
+        <RadioButton
+            android:id="@+id/rbtn1"
+            style="@style/RadioButton"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/shipping_address"
+            android:textSize="13dp" />
+
+        <RadioButton
+            android:id="@+id/rbtn2"
+            style="@style/RadioButton"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/billing_address"
+            android:textSize="13dp" />
+    </info.hoang8f.android.segmented.SegmentedGroup>
+
+    <android.support.v4.widget.SwipeRefreshLayout
+        android:id="@+id/refresh"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/noshipbill"
+        android:visibility="gone">
+
+        <ListView
+            android:id="@+id/shippinglist"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+    </android.support.v4.widget.SwipeRefreshLayout>
+
+    <ListView
+        android:id="@+id/billinglist"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/segmented2"
+        android:visibility="gone" />
+
+    <LinearLayout
+        android:id="@+id/lyshipaddress_default"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/segmented2"
+        android:layout_marginEnd="10dp"
+        android:layout_marginStart="10dp"
+        android:background="#f2f0f1"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/tvshipaddress_default"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="15dp"
+            android:textSize="14dp" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/lybilladdress_default"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/segmented2"
+        android:layout_marginEnd="10dp"
+        android:layout_marginStart="10dp"
+        android:background="#f2f0f1"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/tvbilladdress_default"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="15dp"
+            android:textSize="14dp" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/shippingaddress"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/lyshipaddress_default"
+        android:orientation="vertical"
+        android:layout_marginStart="15dp"
+        android:layout_marginEnd="15dp"
+        android:visibility="gone">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@android:color/white">
+
+            <!--<TextView-->
+                <!--android:id="@+id/shipname"-->
+                <!--android:layout_width="wrap_content"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:layout_alignParentStart="true"-->
+                <!--android:layout_marginStart="15dp"-->
+                <!--android:layout_marginTop="10dp"-->
+                <!--android:layout_toStartOf="@+id/shipedit"-->
+                <!--android:text="@string/name"-->
+                <!--android:textColor="@android:color/black"-->
+                <!--android:textSize="15dp" />-->
+
+            <!--<TextView-->
+                <!--android:id="@+id/shipaddress"-->
+                <!--android:layout_width="wrap_content"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:layout_below="@+id/shipname"-->
+                <!--android:layout_marginBottom="15dp"-->
+                <!--android:layout_marginStart="15dp"-->
+                <!--android:layout_marginTop="5dp"-->
+                <!--android:text="@string/address"-->
+                <!--android:textSize="14dp" />-->
+
+            <!--<TextView-->
+                <!--android:id="@+id/shipph"-->
+                <!--android:layout_width="wrap_content"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:layout_below="@+id/shipaddress"-->
+                <!--android:layout_marginBottom="15dp"-->
+                <!--android:layout_marginStart="15dp"-->
+                <!--android:layout_marginTop="5dp"-->
+                <!--android:text="address"-->
+                <!--android:textSize="13dp"-->
+                <!--android:visibility="gone" />-->
+
+            <!--<TextView-->
+                <!--android:id="@+id/shipedit"-->
+                <!--android:layout_width="wrap_content"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:layout_alignParentEnd="true"-->
+                <!--android:layout_marginEnd="15dp"-->
+                <!--android:layout_marginTop="10dp"-->
+                <!--android:text="@string/edit"-->
+                <!--android:textColor="@color/colorbutton"-->
+                <!--android:textSize="15dp" />-->
+
+            <ListView
+
+                android:id="@+id/ship_listview"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+
+
+        </RelativeLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/billingaddress"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/lybilladdress_default"
+        android:orientation="vertical"
+        android:layout_marginStart="15dp"
+        android:layout_marginEnd="15dp"
+        android:visibility="gone">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@android:color/white">
+
+            <!--<TextView-->
+                <!--android:id="@+id/billname"-->
+                <!--android:layout_width="wrap_content"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:layout_alignParentStart="true"-->
+                <!--android:layout_marginStart="15dp"-->
+                <!--android:layout_marginTop="10dp"-->
+                <!--android:layout_toStartOf="@+id/billedit"-->
+                <!--android:text="@string/name"-->
+                <!--android:textColor="@android:color/black"-->
+                <!--android:textSize="15dp" />-->
+
+            <!--<TextView-->
+                <!--android:id="@+id/billaddress"-->
+                <!--android:layout_width="wrap_content"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:layout_below="@+id/billname"-->
+                <!--android:layout_marginBottom="15dp"-->
+                <!--android:layout_marginStart="15dp"-->
+                <!--android:layout_marginTop="5dp"-->
+                <!--android:text="@string/address"-->
+                <!--android:textSize="14dp" />-->
+
+            <!--<TextView-->
+                <!--android:id="@+id/billph"-->
+                <!--android:layout_width="wrap_content"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:layout_below="@+id/billaddress"-->
+                <!--android:layout_marginBottom="15dp"-->
+                <!--android:layout_marginStart="15dp"-->
+                <!--android:layout_marginTop="5dp"-->
+                <!--android:text="address"-->
+                <!--android:textSize="12dp"-->
+                <!--android:visibility="gone" />-->
+
+            <!--<TextView-->
+                <!--android:id="@+id/billedit"-->
+                <!--android:layout_width="wrap_content"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:layout_alignParentEnd="true"-->
+                <!--android:layout_marginEnd="15dp"-->
+                <!--android:layout_marginTop="10dp"-->
+                <!--android:text="@string/edit"-->
+                <!--android:textColor="@color/colorbutton"-->
+                <!--android:textSize="15dp" />-->
+
+            <ListView
+                android:id="@+id/bill_listview"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+
+        </RelativeLayout>
+    </LinearLayout>
+
+
+</RelativeLayout>

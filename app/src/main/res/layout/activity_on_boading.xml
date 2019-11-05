@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:custom="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activity_folder.Welcome.OnBoadingActivity"
+    tools:ignore="MissingPrefix">
+
+    <org.app.mbooster.listAdapter_folder.Slider.SliderLayout
+        android:id="@+id/slider"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        custom:auto_cycle="true"
+        custom:indicator_visibility="visible"
+        custom:pager_animation="Accordion"
+        custom:pager_animation_span="1100" />
+
+    <org.app.mbooster.listAdapter_folder.Slider.Indicators.PagerIndicator
+        android:id="@+id/custom_indicator"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="50dp"
+        android:gravity="center"
+        custom:selected_color="#ffffff"
+        custom:selected_height="12dp"
+        custom:selected_padding_left="8dp"
+        custom:selected_padding_right="8dp"
+        custom:selected_width="12dp"
+        custom:shape="oval"
+        custom:unselected_color="#55333333"
+        custom:unselected_height="12dp"
+        custom:unselected_padding_left="8dp"
+        custom:unselected_padding_right="8dp"
+        custom:unselected_width="12dp" />
+
+    <TextView
+        android:id="@+id/skip"
+        fontPath="fonts/Gotham Rounded/GothamRnd-Book.ttf"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="20dp"
+        android:text="@string/skip"
+        android:textColor="#fff"
+        android:textSize="12dp" />
+    <Button
+        android:id="@+id/letgo"
+        android:layout_margin="30dp"
+        android:background="@drawable/roundedbutton2"
+        android:text="@string/let_s_start"
+        android:textColor="#fff"
+        android:textSize="18dp"
+        fontPath="fonts/Gotham Rounded/GothamRnd-Book.ttf"
+        android:layout_width="match_parent"
+        android:textAllCaps="false"
+        android:layout_alignParentBottom="true"
+        android:layout_height="wrap_content" />
+
+</RelativeLayout>

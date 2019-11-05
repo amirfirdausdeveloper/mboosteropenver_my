@@ -1,0 +1,221 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:id="@+id/relativelayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="@dimen/item_event_img_side_m"
+        android:layout_marginStart="@dimen/item_event_img_side_m"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/customlayout2">
+
+        <LinearLayout
+            android:id="@+id/discount_label"
+            android:layout_width="@dimen/item_event_promo_w"
+            android:layout_height="@dimen/item_event_promo_h"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:paddingStart="@dimen/item_event_promo_p"
+            android:background="@drawable/product_list_tag_bg">
+
+            <TextView
+                android:id="@+id/discount_perc"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="2dp"
+                android:maxLines="1"
+                android:gravity="center_horizontal"
+                android:text="30%"
+                android:textColor="@android:color/white"
+                android:textSize="@dimen/item_product_promo_text" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/discount_perc"
+                android:gravity="center_horizontal"
+                android:text="OFF"
+                android:textColor="@android:color/white"
+                android:textSize="@dimen/item_product_promo_text" />
+
+        </LinearLayout>
+
+        <RelativeLayout
+            android:id="@+id/imgrl"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp">
+
+            <ImageView
+                android:id="@+id/img"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:src="@drawable/cart" />
+
+            <ImageView
+                android:visibility="gone"
+                android:id="@+id/label_voucher"
+                android:layout_width="55dp"
+                android:layout_height="55dp"
+                android:layout_alignBottom="@+id/img"
+                android:layout_alignEnd="@+id/img"
+                android:layout_marginEnd="1dp"
+                android:src="@drawable/label_mbooster_voucher" />
+
+        </RelativeLayout>
+
+        <TextView
+            android:id="@+id/name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="12dp"
+            android:layout_toEndOf="@+id/imgrl"
+            android:maxLines="2"
+            android:text="productname"
+            android:textColor="#414042"
+            android:textSize="12dp" />
+
+        <TextView
+            android:id="@+id/pts_discount"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/name"
+            android:layout_marginTop="5dp"
+            android:layout_toEndOf="@+id/imgrl"
+            android:text="price"
+            android:textColor="#bbb"
+            android:textSize="11dp" />
+
+        <TextView
+            android:id="@+id/pts"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/pts_discount"
+            android:layout_toEndOf="@+id/imgrl"
+            android:text="Product By:"
+            android:textColor="#414042"
+            android:textSize="16dp" />
+
+        <ImageView
+            android:id="@+id/soldoutlabel"
+            android:layout_width="100dp"
+            android:layout_height="60dp"
+            android:layout_alignParentEnd="true"
+            android:layout_alignTop="@+id/pts_discount"
+            android:src="@drawable/sold_out"
+            android:visibility="gone" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/pts"
+            android:layout_toEndOf="@+id/imgrl"
+            android:orientation="horizontal">
+
+            <RelativeLayout
+                android:id="@+id/e_voucher_icon"
+                android:layout_width="@dimen/item_event_ev_icon_w"
+                android:layout_height="@dimen/item_event_ev_icon_h"
+                android:layout_centerVertical="true"
+                android:layout_marginTop="@dimen/e_voucher_text_top_m"
+                android:layout_marginRight="@dimen/item_event_ev_icon_spacing"
+                android:visibility="visible"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:layout_width="@dimen/item_event_ev_icon_w"
+                    android:layout_height="match_parent"
+                    android:src="@mipmap/ev_icon"
+                    android:scaleType="fitXY"/>
+
+                <TextView
+                    android:id="@+id/e_voucher_text"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_alignParentRight="true"
+                    android:layout_marginRight="@dimen/item_event_ev_icon_right_p"
+                    android:textSize="@dimen/item_event_ev_icon_text"/>
+
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/m_a_icon"
+                android:layout_width="@dimen/item_event_ev_icon_w"
+                android:layout_height="@dimen/item_event_ev_icon_h"
+                android:layout_centerVertical="true"
+                android:layout_marginTop="@dimen/e_voucher_text_top_m"
+                android:visibility="visible"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:src="@mipmap/m_a_icon"
+                    android:scaleType="fitXY"/>
+
+                <TextView
+                    android:id="@+id/m_a_text"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_marginRight="@dimen/item_event_ev_icon_right_p"
+                    android:layout_alignParentRight="true"
+                    android:textSize="@dimen/item_event_ev_icon_text"/>
+
+            </RelativeLayout>
+
+        </LinearLayout>
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/pts"
+            android:layout_toEndOf="@+id/imgrl">
+
+            <!--<LinearLayout-->
+                <!--android:id="@+id/ma_voucher_icon"-->
+                <!--android:layout_width="@dimen/event_ev_icon_h"-->
+                <!--android:layout_height="@dimen/event_ev_icon_w"-->
+                <!--android:background="@drawable/event_e_voucher_bg"-->
+                <!--android:layout_centerVertical="true"-->
+                <!--android:visibility="visible"-->
+                <!--android:layout_toEndOf="@id/e_voucher_icon"-->
+                <!--android:layout_marginLeft="@dimen/event_ev_icon_m"-->
+                <!--android:orientation="horizontal">-->
+
+                <!--<ImageView-->
+                    <!--android:layout_width="@dimen/event_ev_icon"-->
+                    <!--android:layout_height="match_parent"-->
+                    <!--android:src="@mipmap/m_airtime_icon"-->
+                    <!--android:scaleType="fitXY"/>-->
+
+                <!--<TextView-->
+                    <!--android:id="@+id/ma_voucher_text"-->
+                    <!--android:layout_width="match_parent"-->
+                    <!--android:layout_height="match_parent"-->
+                    <!--android:textAlignment="center"-->
+                    <!--android:textSize="@dimen/e_voucher_text"-->
+                    <!--android:textColor="@color/colorRed"/>-->
+
+            <!--</LinearLayout>-->
+
+            <ImageView
+                android:id="@+id/addtobag"
+                android:layout_width="120dp"
+                android:layout_height="40dp"
+                android:layout_alignParentEnd="true"
+                android:layout_marginEnd="10dp"
+                android:src="@drawable/ic_addtobagevent" />
+
+        </RelativeLayout>
+
+
+    </RelativeLayout>
+</LinearLayout>

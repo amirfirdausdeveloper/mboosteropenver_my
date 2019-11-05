@@ -1,0 +1,356 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="home">主頁</string>
+    <string name="purchase_history">訂單記錄</string>
+    <string name="welcome">歡迎</string>
+    <string name="mmspot_id_username">用戶名/M匯通賬號</string>
+    <string name="password">密碼</string>
+    <string name="remember_me">記住我</string>
+    <string name="let_s_start">開始</string>
+    <string name="delivery_info">運送資訊</string>
+    <string name="search_mbooster">搜索Mbooster</string>
+    <string name="all_categories">所有類別</string>
+    <string name="ca_telecommunication">電子通訊產品</string>
+    <string name="ca_electronic">數碼電子產品</string>
+    <string name="ca_fashion">時尚服裝首飾</string>
+    <string name="ca_travel">海外旅遊配套</string>
+    <string name="ca_homeappliances">家庭裝飾器材</string>
+    <string name="ca_outdoorssport">戶外運動用品</string>
+    <string name="ca_voucher">門票購物禮券</string>
+    <string name="ca_others">其它類型商品</string>
+    <string name="app_name">Mbooster.my</string>
+    <string name="account">賬號</string>
+    <string name="app_version">2.3</string>
+    <string name="currency">MYR&#160;</string>
+    <string name="mmspot">M匯通</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="shopping_bag">購物包</string>
+    <string name="shopping_bag_kwave">KWave 3 購物包</string>
+    <string name="you_have">您有</string>
+    <string name="address_1">地址1</string>
+    <string name="address_2">地址2</string>
+    <string name="city">城市</string>
+    <string name="country">國家</string>
+    <string name="edit_profile">編輯賬號</string>
+    <string name="email">電郵 / M匯通賬號</string>
+    <string name="phone_number">電話號碼</string>
+    <string name="postcode">郵政編號</string>
+    <string name="state">州屬</string>
+    <string name="submit">提交</string>
+    <string name="good_sold_are_n_not_refundable">售出的商品不給予退還</string>
+    <string name="cancel">取消</string>
+    <string name="handling_amp_transaction_fee">總管理費和運輸費</string>
+    <string name="in_stock">有現貨</string>
+    <string name="nationwide_n">全國運輸</string>
+    <string name="no">不</string>
+    <string name="account_logout">登出賬號</string>
+    <string name="add_to_bag">置入購物包</string>
+    <string name="address">地址</string>
+    <string name="approved">已接納</string>
+    <string name="are_you_sure">您確定嗎?</string>
+    <string name="are_you_sure_to_checkout">確定結算嗎?</string>
+    <string name="are_you_sure_to_delete_this_item">確定移除這項商品嗎?</string>
+    <string name="buy_now">立即購買</string>
+    <string name="cannot_crop">抱歉, 您的手機不支援剪裁功能</string>
+    <string name="category">類別</string>
+    <string name="check_out">結算</string>
+    <string name="check_out_kwave">KWave 3 結算</string>
+    <string name="choose_photo">選擇圖像</string>
+    <string name="comming_soon">即將來臨</string>
+    <string name="confirm">確定</string>
+    <string name="contact">聯絡電話</string>
+    <string name="credit_card">信用卡</string>
+    <string name="edit_shipping_address">&#160;&#160;更新收貨地址&#160;&#160;</string>
+    <string name="enter_mmspot_pw">請輸入M匯通號碼</string>
+    <string name="grand_total_gst_incl">總計(GST incl.)</string>
+    <string name="invalid_mairtime">您的M匯通餘額不足. 請儲值以繼續付款.</string>
+    <string name="item_description">商品描述</string>
+    <string name="invalid_qty">無效數量</string>
+    <string name="item_image">商品圖像</string>
+    <string name="item_name">商品名字</string>
+    <string name="key_features">主要特徵</string>
+    <string name="logging_out">登出</string>
+    <string name="mmspot_confirmation">M匯通</string>
+    <string name="mmspot_id">M匯通賬號</string>
+    <string name="mmspot_password">M匯通密碼</string>
+    <string name="name">名字</string>
+    <string name="no_purchase_transaction_record_found">查無購買記錄</string>
+    <string name="not_updated">無法提交, 請稍後再試</string>
+    <string name="online_banking">網上銀行服務</string>
+    <string name="oops_no_item_requested_yet">哎喲, 沒有請求商品記錄</string>
+    <string name="oops_there_is_nothing_in_your_shopping_bag">哎喲, 您的購物包裡沒有商品</string>
+    <string name="order_completed">訂單已完成</string>
+    <string name="order_processing">待審核</string>
+    <string name="order_shipped">訂單已發貨</string>
+    <string name="original_price">原價:</string>
+    <string name="out_of_stock">缺貨</string>
+    <string name="payment_method">付款方式</string>
+    <string name="payment_nsuccessful">付款成功</string>
+    <string name="pending">待定</string>
+    <string name="please_fill_in_all_blanks">請輸入所有空格</string>
+    <string name="please_upload_an_image">請上傳一張圖像</string>
+    <string name="price_range">價格範圍</string>
+    <string name="product">商品</string>
+    <string name="product_description">商品描述</string>
+    <string name="purchase_detail">訂單詳情</string>
+    <string name="qty">數量</string>
+    <string name="color">顏色</string>
+    <string name="redeem_by">Redeem By</string>
+    <string name="rejected">已拒絕</string>
+    <string name="request_an_item">請求商品</string>
+    <string name="request_item">請求商品</string>
+    <string name="request_history">商品請求記錄</string>
+    <string name="request_this_item_q">請求這項商品嗎?</string>
+    <string name="search">搜索</string>
+    <string name="select_file">選擇文件</string>
+    <string name="shipping_details">發貨詳情</string>
+    <string name="shipping_fee">管理費和運輸費:&#160;</string>
+    <string name="shipping_free_n">管理費和運輸費</string>
+    <string name="summary">總結</string>
+    <string name="take_photo">拍照</string>
+    <string name="there_is_no_availalbe_stock">這項商品沒有現貨</string>
+    <string name="total">總額</string>
+    <string name="unit_price">單價</string>
+    <string name="update">更新</string>
+    <string name="yes">是</string>
+    <string name="you_have_reach_stock_limit">已達到最大商品數量</string>
+    <string name="handling_amp_shipping_charges">管理費和運輸費</string>
+    <string name="subtotal">小計:</string>
+    <string name="alternative_number">替代號碼</string>
+    <string name="product_coming_soon">即將來臨</string>
+    <string name="tracking_code">商品追踪編號:</string>
+    <string name="courier_service">運輸公司:</string>
+    <string name="first_time_login">首次登錄</string>
+    <string name="invalid_email">郵件無效</string>
+    <string name="billing_address">賬單地址</string>
+    <string name="shipping_address">收貨地址</string>
+    <string name="same_as_shipping_address">與收貨地址相同</string>
+    <string name="edit_billing_address">賬單地址</string>
+    <string name="edit">修改</string>
+    <string name="my_address">我的地址</string>
+    <string name="my_profile">我的賬號</string>
+    <string name="billing_details">付款詳情</string>
+    <string name="warranty">保修</string>
+    <string name="whats_in_the_box">包裝內容</string>
+    <string name="product_specification">商品規格</string>
+    <string name="order_refunds">訂單已退款</string>
+    <string name="order_cancel2">訂單已取消</string>
+    <string name="exit_application">退出</string>
+    <string name="change_english">Change English</string>
+    <string name="invoice_id">收據編號</string>
+    <string name="order_process">訂單追踪</string>
+    <string name="order_id">訂單編號 :</string>
+    <string name="exit">退出</string>
+    <string name="no_network_notification">查無網絡連接,請稍後再試</string>
+    <string name="try_again">再試一次</string>
+    <string name="enter_voucher">請輸入Mbooster禮券編號</string>
+    <string name="enter_voucher_to_submit">請輸入禮券</string>
+    <string name="voucher">e購物劵</string>
+    <string name="total_voucher_amount">e購物劵總額</string>
+    <string name="total_voucher_discount">e購物劵總額:</string>
+    <string name="voucher_tips_text1">是时候使用您的Mbooster礼券了!</string>
+    <string name="voucher_used">使用禮券</string>
+    <string name="remove">移除</string>
+    <string name="voucher_tips_text2">Hi, 您的Mbooster礼券兑换已来临, 或者您有即将逾期的礼券. 请在礼券逾期前到这里兑换:)</string>
+    <string name="you_have_not_entered_any_voucher">您未输入任何礼券</string>
+    <string name="mbooster_voucher_code">Mbooster禮券編號</string>
+    <string name="total_voucher_value">禮券使用總額</string>
+    <string name="paid">總支付:</string>
+    <string name="pay_now">現在支付</string>
+    <string name="mbooster_voucher_entitlement">獲得Mbooster禮券: RM 10 x 2</string>
+    <string name="permission_denied">沒有權限</string>
+    <string name="player_error">Error initializing YouTube player: %s</string>
+    <string name="seek_to">Jump To</string>
+    <string name="seek_to_hint">Seconds</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="help_and_contact_us"><![CDATA[Help & Contact Us]]></string>
+    <string name="happening">熱門</string>
+    <string name="we_re_always_here_to_help_you">我們隨時都能幫助您</string>
+    <string name="hello">您好</string>
+    <string name="customer_care_line">客服專線</string>
+    <string name="monday_friday_except_public_holiday">星期一 至 星期五 (公共假日除外)</string>
+    <string name="you_can_also_email_us_at">您也能通過以下郵件聯繫我們:</string>
+    <string name="no_record_found">查無記錄</string>
+    <string name="no_product_found">查无商品</string>
+    <string name="ends_in">距離結束:</string>
+    <string name="days">日</string>
+    <string name="hrs">小時</string>
+    <string name="min">分</string>
+    <string name="sec">秒</string>
+    <string name="start_in">距離開始:</string>
+    <string name="set">設定</string>
+    <string name="view_all">查看所有</string>
+    <string name="lion_dance_booking">舞狮表演预约</string>
+    <string name="notify_update_addr">請更新您的收貨與賬單地址</string>
+    <string name="please_complete_shipping_addr">"請完整填寫您的收貨與賬單地址 "</string>
+    <string name="payment">付款</string>
+    <string name="payment_not_successful_ninvalid_token_nkindly_contact_to_our_customer_service">交易失敗.\n請聯繫我們的客服.</string>
+    <string name="select_address">選擇地址</string>
+    <string name="add">添加</string>
+    <string name="change_shipping_address">&#160;&#160;更換收貨地址&#160;&#160;</string>
+    <string name="pleasecompleteaddress">請完成此地址以便進行更多操作</string>
+    <string name="are_you_sure_delete_address">您確定要刪除此地址？</string>
+    <string name="delete_address">刪除地址</string>
+    <string name="resend_verification_code">重發驗證碼電郵</string>
+    <string name="set_as_shipping_address">設置為收貨地址</string>
+    <string name="no_ship_default">尚未設置默認收貨地址</string>
+    <string name="no_bill_default">尚未設置默認賬單地址</string>
+    <string name="no_ship_bill_default">尚未設置默認收貨與賬單地址</string>
+    <string name="set_as_billing_address">設置為賬單地址</string>
+    <string name="verify_address">驗證地址</string>
+    <string name="delete_this_address">刪除此地址</string>
+    <string name="add_address">添加地址</string>
+    <string name="edit_address">更新地址</string>
+    <string name="verification_code">驗證碼</string>
+    <string name="address_info">地址詳情</string>
+    <string name="pleaseenterverificationcode">請輸入驗證碼以進行驗證</string>
+    <string name="please_set_default_billing">"請至您的個人資料處設置默认賬單地址 "</string>
+    <string name="please_set_default_shipping_and_billing">"请至您的个人资料处设置默认收货和账单地址 "</string>
+    <string name="please_set_default_shipping">请至您的个人资料处设置默认收货地址</string>
+    <string name="login">登錄</string>
+    <string name="shipping">收貨地址</string>
+    <string name="billing">賬單地址</string>
+    <string name="no_address_found">未發現地址</string>
+    <string name="currently_seleted_this_address">當前已選擇此地址</string>
+    <string name="currently_selected">當前已選擇</string>
+    <string name="are_u_sure_select_this_shipping_address">您確定選擇此地址為您的收貨地址?</string>
+    <string name="pending_verify">點擊驗證</string>
+    <string name="verified">已驗證</string>
+    <string name="signin">登錄</string>
+    <string name="register">註冊</string>
+    <string name="forgot_password">忘記密碼?</string>
+    <string name="forget_password">忘記密碼</string>
+    <string name="password_mismatch">密码不匹配! 请检查您的密码</string>
+    <string name="confirm_password">確認密碼</string>
+    <string name="passwordatleast6char">密码的长度必须至少为6个字符, 并包含至少1个数字和1个字母, 没有空格允许</string>
+    <string name="change_password">更換密碼</string>
+    <string name="please_sign_in">请登录以继续购买. 谢谢</string>
+    <string name="password_reset">密码重置</string>
+    <string name="areyousurelogout">是否确定要登出Mbooster?</string>
+    <string name="new_password">新密碼</string>
+    <string name="current_password">當前密碼</string>
+    <string name="please_enter_your_current_password">請輸入您的當前密碼</string>
+    <string name="your_new_password_cannot_same_with_old_one">您的新密码不能与当前密码相同</string>
+    <string name="please_enter_email">请输入电邮</string>
+    <string name="please_enter_a_valid_email">请输入有效电邮</string>
+    <string name="please_enter_name">请输入名字</string>
+    <string name="default_as">默認:</string>
+    <string name="or">或</string>
+    <string name="please_login_to_continue">請登錄以繼續</string>
+    <string name="login_required">要求登錄</string>
+    <string name="please_fill_in">請輸入</string>
+    <string name="ic_no">IC 號碼</string>
+    <string name="please_update_your_email_via_mmspot">請至M號匯通更新您的電郵</string>
+    <string name="update_email">更</string>
+    <string name="if_the_name_submitted_is_not_same_as_per_ic_mbooster_reserves_the_right_to_refuse_product_delivery">*如果提交的名称与身份证不同，Mbooster保留拒绝产品交付的权利。</string>
+    <string name="close">關閉</string>
+    <string name="this_action_cannot_be_undone">**此操作無法撤消</string>
+    <string name="certified">認證</string>
+    <string name="certified_fulltext">Mbooster的宗旨是要為您搜羅100%的正品,確保所有展示商品都來自於原廠或授權經銷商。</string>
+    <string name="convenience">便利</string>
+    <string name="convenience_fulltext">Mbooster已經聘請了業內最好的運營商，以確保您的訂單能夠準時送達。</string>
+    <string name="worry_free">無憂無慮</string>
+    <string name="worry_free_fulltext">Mbooster致力於提供驚人的體驗，向您呈現數碼生活方式的一個選項來花費您的MMSPOT。</string>
+    <string name="shop_safely">享受零風險購物</string>
+    <string name="shop_safely_fulltext">Mbooster 希望為您提供無比方便和安全的網上購物體驗, 讓您可以盡情地享受零風險網上購物。</string>
+    <string name="skip">跳過</string>
+    <string name="make_default_shipping_address">選擇此地址為收貨地址</string>
+    <string name="make_default_billing_address">選擇此地址為賬單地址</string>
+    <string name="order_cancel">訂單已取消</string>
+
+
+    <!--Register-->
+    <string name="register_gender">Pick a gender</string>
+    <string name="register_male">男</string>
+    <string name="register_female">女</string>
+
+    <!--Tab Name-->
+    <string name="tab_convert">轉換</string>
+
+    <!--Main-->
+    <string name="tabs_rewards">獎勵</string>
+
+    <!--Profile-->
+    <string name="profile_bind_acocunt">Bind Account</string>
+    <string name="profile_mti_prefix">Your member ID: </string>
+
+    <!--MMSpot Account Bind-->
+    <string name="mmspot_bind_acount">Bind Account</string>
+
+    <!--Drawer List-->
+    <string name="drawer_order_n_transaction">Order &amp; Transaction</string>
+    <string name="drawer_convert_to_ev">轉換為e購物劵</string>
+    <string name="drawer_tnc">Term &amp; Conditions</string>
+
+    <string name="login_apps">若尚未註冊成為M匯通用戶，立即下載應用程序並註冊！M汇通链接：http://mmspot.com/</string>
+    <!--Request an item-->
+    <string name="request_click_to_upload">點擊和上載圖片</string>
+
+    <!--Rewards-->
+    <string name="rewards_you_have">您有</string>
+    <string name="mbooster_evoucher_prefix">Mbooster e-Voucher eV</string>
+    <string name="mbooster_evoucher_count_postfix">張</string>
+    <string name="mbooster_evoucher_sample">100pcs</string>
+    <string name="rewards_mmspot_title">MMspot M-A</string>
+    <string name="rewards_mbooster_credit">模城電商e購物點</string>
+    <string name="rewards_mbooster_evcouher">模城電商e購物劵</string>
+
+    <!--Order History-->
+    <string name="total_ma_value">Total Amount Paid (M-A):</string>
+
+    <!--Conversion-->
+    <string name="conversion_header">Convert to Mbooster e-Voucher</string>
+    <string name="conversion_convert">轉換</string>
+    <string name="conversion_total_value">總額:</string>
+    <string name="conversion_balance">餘額:</string>
+    <string name="conversion_confirm">確認轉換</string>
+    <string name="conversion_default_0pcs">0pcs</string>
+    <string name="conversion_pcs">pcs</string>
+    <string name="conversion_title">轉換為e購物劵</string>
+    <string name="conversion_insufficient">Insufficient Mbooster Point.</string>
+
+    <string name="rewards_total_value">總額:</string>
+
+    <!--Shopping Bag-->
+    <string name="shopping_bag_cp_earn">Total Credit Point Earn</string>
+    <string name="shopping_bag_ship_to">收貨地址</string>
+    <string name="shopping_bag_bill_default">帳單到默認帳單地址</string>
+    <string name="shopping_select_shipping_address">選擇收貨地址</string>
+    <string name="shopping_select_billing_address">選擇帳單地址</string>
+
+    <!--Select VoucherModel-->
+    <string name="select_voucher_total_value">所選的e購物劵總額: </string>
+    <string name="select_voucher_total_allow">允許的總數量:</string>
+    <string name="select_voucher_selected_quantity">Total selected e-voucher quantity :</string>
+    <string name="select_voucher_selected_value_allow">允許的e購物劵總額:</string>
+    <string name="select_voucher_available">可用的eV $VALUE$ 張</string>
+    <string name="select_voucher_selected">Selected</string>
+    <string name="select_save">Save</string>
+    <string name="select_voucher_exceed_limit">Total voucher quantity cannot be more than $VALUE$ for this product. Do you wish to proceed to use the voucher(s)?</string>
+    <string name="select_voucher_exceed_value">總e購物劵不能超過$VALUE$。 您是否要繼續使用此e購物劵？</string>
+
+    <!---->
+    <string name="MYR_CURRENCY_PREFIX">RM </string>
+    <string name="postfix_ev">eV</string>
+    <string name="postfix_pv">pv</string>
+    <string name="postfix_mp">mp</string>
+
+    <!--VoucherModel List-->
+    <string name="voucher_status">狀態</string>
+    <string name="voucher_amount">e購物劵值</string>
+    <string name="voucher_used_date">使用日期</string>
+    <string name="voucher_expiry_date">有效日期</string>
+
+    <!--activity_register.xml-->
+    <string name="register_welcome">嘿！您可以註冊戶口以開始使用</string>
+    <string name="register_fname">姓名</string>
+    <string name="register_email">電郵</string>
+    <string name="register_password">密碼</string>
+    <string name="register_cpassword">確認密碼</string>
+    <string name="register_birthday">生日日期</string>
+    <string name="register_gder">性別</string>
+
+    <!--main_activity.xml-->
+    <string name="login_sign_up_btn">登錄 / 註冊</string>
+</resources>

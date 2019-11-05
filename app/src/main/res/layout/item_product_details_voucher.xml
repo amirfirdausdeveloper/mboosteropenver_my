@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/event_ev_custom_h"
+        android:layout_marginRight="@dimen/event_ev_icon_right_m"
+        android:visibility="visible"
+        >
+
+        <ImageView
+            android:id="@+id/voucher_icon"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/event_ev_custom_h"
+            android:src="@mipmap/ev_icon"
+            android:scaleType="fitXY"/>
+
+        <TextView
+            android:id="@+id/voucher_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="00000"
+            android:textSize="@dimen/event_ev_icon_text"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:gravity="center"
+            android:layout_marginRight="@dimen/event_ev_icon_text_m"/>
+
+
+    </RelativeLayout>
+
+</LinearLayout>

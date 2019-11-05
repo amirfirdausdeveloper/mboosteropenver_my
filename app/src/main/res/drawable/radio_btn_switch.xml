@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:drawable="@drawable/radio_inactive"/>
+
+    <item android:state_activated="true" android:drawable="@drawable/radio_active" />
+    <item android:state_active="true" android:drawable="@drawable/radio_active"/>
+    <item android:state_enabled="false" android:drawable="@drawable/radio_active" />
+
+</selector>

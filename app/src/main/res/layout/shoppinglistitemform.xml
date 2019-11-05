@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:layout_marginEnd="10dp"
+        android:background="@drawable/customlayout2"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:background="@android:color/darker_gray"
+            android:id="@+id/rlvendorname"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:textSize="14dp"
+                android:id="@+id/tvvendorname"
+                android:layout_margin="10dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="vendor"/>
+        </RelativeLayout>
+        <ListView
+            android:visibility="gone"
+            android:layout_below="@+id/rlvendorname"
+            android:id="@+id/list"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+        <RelativeLayout
+            android:visibility="gone"
+            android:id="@id/end"
+            android:layout_alignParentEnd="true"
+            android:layout_marginTop="5dp"
+            android:layout_below="@+id/list"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content">
+            <TextView
+                android:text="Subshippping:"
+                android:textSize="14dp"
+                android:id="@+id/subshiping"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:text="subtotal:"
+                android:textSize="14dp"
+                android:layout_below="@+id/subshiping"
+                android:id="@+id/subtotal"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:visibility="gone"
+            android:layout_toStartOf="@+id/end"
+            android:layout_marginTop="5dp"
+            android:layout_marginEnd="15dp"
+            android:layout_below="@+id/list"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <TextView
+                android:text="Subshippping:"
+                android:textSize="14dp"
+                android:id="@+id/tvsubshiping"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:text="subtotal:"
+                android:textSize="14dp"
+                android:layout_below="@+id/tvsubshiping"
+                android:id="@+id/tvsubtotal"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+        </RelativeLayout>
+
+
+    </RelativeLayout>
+</LinearLayout>

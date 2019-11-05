@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "336319905635",
+    "firebase_url": "https://mboostermy.firebaseio.com",
+    "project_id": "mboostermy",
+    "storage_bucket": "mboostermy.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:336319905635:android:d04128d0b0e08853",
+        "android_client_info": {
+          "package_name": "org.app.mbooster"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "336319905635-geqj8pqvrmv52ngtc2ootaf7964ibf37.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "org.app.mbooster",
+            "certificate_hash": "a0fc15ba9a313237039658df270098cabc513bbb"
+          }
+        },
+        {
+          "client_id": "336319905635-kefdd8bgc800gu7a1c5g5884quml0t9q.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCP_H-ya2foiXMDZOiAoevswjNDZ7r0D5A"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "336319905635-kefdd8bgc800gu7a1c5g5884quml0t9q.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

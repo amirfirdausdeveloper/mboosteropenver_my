@@ -1,0 +1,18 @@
+# OSX files
+.DS_Store
+
+# Android Studio
+bin/
+gen/
+.gradle/
+/build
+build/
+*.log
+
+# IntelliJ files
+.idea
+*.iml
+.apk
+
+#SDK file
+local.properties

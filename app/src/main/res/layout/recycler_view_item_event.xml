@@ -1,0 +1,255 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/rootview"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="5dp"
+    android:clickable="true"
+    android:foreground="?attr/selectableItemBackground"
+    android:orientation="vertical"
+    tools:ignore="MissingPrefix">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="5dp"
+        android:layout_marginTop="5dp">
+
+        <ImageView
+            android:id="@+id/image_view"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:scaleType="fitXY"
+            android:adjustViewBounds="true" />
+
+        <ImageView
+            android:id="@+id/shopnow"
+            android:src="@drawable/btn_shopnow_cny"
+            android:layout_width="130dp"
+            android:layout_height="45dp"
+            android:layout_alignParentEnd="true"
+            android:layout_marginEnd="35dp"
+            android:layout_marginTop="35dp"
+            android:orientation="vertical" />
+
+        <LinearLayout
+            android:id="@+id/timer_countdown"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_marginEnd="25dp"
+            android:layout_marginTop="35dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/tvstart_end"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/ends_in"
+                android:textColor="@android:color/black"
+                android:textSize="10dp" />
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal">
+
+                        <ImageView
+                            android:id="@+id/day_tens"
+                            android:layout_width="15dp"
+                            android:layout_height="20dp"
+                            android:layout_marginEnd="1dp"
+                            android:scaleType="fitCenter"
+                            android:src="@drawable/timer_0" />
+
+                        <ImageView
+                            android:id="@+id/day_digits"
+                            android:layout_width="15dp"
+                            android:layout_height="20dp"
+                            android:scaleType="fitCenter"
+                            android:src="@drawable/timer_0" />
+
+                    </LinearLayout>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_horizontal"
+                        android:text="@string/days"
+                        android:textColor="@android:color/black"
+                        android:textSize="10dp" />
+
+                </LinearLayout>
+
+
+                <TextView
+                    fontPath="fonts/gotham_book_bold.ttf"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_marginEnd="3dp"
+                    android:layout_marginStart="3dp"
+                    android:text=":"
+                    android:textAlignment="center"
+                    android:textColor="@android:color/black"
+                    android:textSize="12dp" />
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal">
+
+                        <ImageView
+                            android:id="@+id/hrs_tens"
+                            android:layout_width="15dp"
+                            android:layout_height="20dp"
+                            android:layout_marginEnd="1dp"
+                            android:scaleType="fitCenter"
+                            android:src="@drawable/timer_0" />
+
+                        <ImageView
+                            android:id="@+id/hrs_digits"
+                            android:layout_width="15dp"
+                            android:layout_height="20dp"
+                            android:scaleType="fitCenter"
+                            android:src="@drawable/timer_0" />
+
+                    </LinearLayout>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_horizontal"
+                        android:text="@string/hrs"
+                        android:textColor="@android:color/black"
+                        android:textSize="10dp" />
+
+                </LinearLayout>
+
+
+                <TextView
+                    fontPath="fonts/gotham_book_bold.ttf"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_marginEnd="3dp"
+                    android:layout_marginStart="3dp"
+                    android:text=":"
+                    android:textAlignment="center"
+                    android:textColor="@android:color/black"
+                    android:textSize="12dp" />
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal">
+
+                        <ImageView
+                            android:id="@+id/min_tens"
+                            android:layout_width="15dp"
+                            android:layout_height="20dp"
+                            android:layout_marginEnd="1dp"
+                            android:scaleType="fitCenter"
+                            android:src="@drawable/timer_0" />
+
+                        <ImageView
+                            android:id="@+id/min_digits"
+                            android:layout_width="15dp"
+                            android:layout_height="20dp"
+                            android:scaleType="fitCenter"
+                            android:src="@drawable/timer_0" />
+
+                    </LinearLayout>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_horizontal"
+                        android:text="@string/min"
+                        android:textColor="@android:color/black"
+                        android:textSize="10dp" />
+
+                </LinearLayout>
+
+
+                <TextView
+                    fontPath="fonts/gotham_book_bold.ttf"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_marginEnd="3dp"
+                    android:layout_marginStart="3dp"
+                    android:text=":"
+                    android:textAlignment="center"
+                    android:textColor="@android:color/black"
+                    android:textSize="12dp" />
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal">
+
+                        <ImageView
+                            android:id="@+id/sec_tens"
+                            android:layout_width="15dp"
+                            android:layout_height="20dp"
+                            android:layout_marginEnd="1dp"
+                            android:scaleType="fitCenter"
+                            android:src="@drawable/timer_0" />
+
+                        <ImageView
+                            android:id="@+id/sec_digits"
+                            android:layout_width="15dp"
+                            android:layout_height="20dp"
+                            android:scaleType="fitCenter"
+                            android:src="@drawable/timer_0" />
+
+                    </LinearLayout>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_horizontal"
+                        android:text="@string/sec"
+                        android:textColor="@android:color/black"
+                        android:textSize="10dp" />
+
+                </LinearLayout>
+
+
+                <TextView
+                    fontPath="fonts/gotham_book_bold.ttf"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:textAlignment="center"
+                    android:textSize="12dp" />
+
+            </LinearLayout>
+        </LinearLayout>
+
+    </RelativeLayout>
+
+</android.support.v7.widget.CardView>

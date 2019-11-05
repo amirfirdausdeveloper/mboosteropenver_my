@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/segmented2"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@android:color/white">
+
+            <TextView
+                android:layout_marginTop="10dp"
+                android:layout_toStartOf="@+id/shipedit"
+                android:layout_alignParentStart="true"
+                android:id="@+id/name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="15dp"
+                android:text="@string/name"
+                android:textColor="@android:color/black"
+                android:textSize="15dp" />
+
+            <TextView
+                android:id="@+id/address"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="5dp"
+                android:layout_below="@+id/name"
+                android:layout_marginStart="15dp"
+                android:layout_marginTop="5dp"
+                android:text="@string/address"
+                android:textSize="14dp" />
+
+            <TextView
+                android:id="@+id/defaultas"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="5dp"
+                android:layout_below="@+id/address"
+                android:layout_marginStart="15dp"
+                android:layout_marginTop="5dp"
+                android:text="@string/default_as"
+                android:textSize="14dp" />
+
+            <TextView
+                android:id="@+id/shipbill"
+                android:layout_toEndOf="@+id/defaultas"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="5dp"
+                android:layout_below="@+id/address"
+                android:layout_marginStart="15dp"
+                android:layout_marginTop="5dp"
+                android:text=""
+                android:textSize="14dp" />
+
+
+            <TextView
+                android:layout_marginTop="10dp"
+                android:id="@+id/edit"
+                android:visibility="gone"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentEnd="true"
+                android:layout_marginEnd="15dp"
+                android:text="@string/edit"
+                android:textColor="@color/colorbutton"
+                android:textSize="15dp" />
+
+            <TextView
+                android:layout_marginTop="10dp"
+                android:id="@+id/status"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentEnd="true"
+                android:layout_below="@+id/edit"
+                android:layout_marginEnd="15dp"
+                android:text="@string/edit"
+                android:textSize="15dp" />
+
+
+        </RelativeLayout>
+    </LinearLayout>
+
+</RelativeLayout>

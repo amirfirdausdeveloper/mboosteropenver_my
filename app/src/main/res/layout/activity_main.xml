@@ -1,0 +1,236 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.DrawerLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/drawer_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:baselineAligned="false"
+    tools:context="org.app.mbooster.activity_folder.MainActivity"
+    tools:ignore="MissingPrefix">
+
+    <LinearLayout
+        android:id="@+id/container_toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <android.support.design.widget.AppBarLayout
+            android:id="@+id/toolbar1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:theme="@style/AppTheme.AppBarOverlay">
+
+            <android.support.v7.widget.Toolbar
+                android:id="@+id/toolbar"
+                android:layout_width="match_parent"
+                android:layout_height="?attr/actionBarSize"
+                android:background="#fff"
+                app:popupTheme="@style/AppTheme.PopupOverlay">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    tools:ignore="MissingPrefix">
+
+                    <ImageView
+                        android:layout_width="@dimen/toolbars_circle_icon"
+                        android:layout_height="@dimen/toolbars_circle_icon"
+                        android:src="@mipmap/burger_menu_icon_"
+                        android:layout_centerVertical="true"
+                        android:layout_marginStart="15dp"
+                        android:paddingLeft="@dimen/toolbars_burger_left_padding"
+                        android:scaleType="fitXY"/>
+
+                    <ImageView
+                        android:layout_width="@dimen/toolbars_logo_w"
+                        android:layout_height="@dimen/toolbars_logo_h"
+                        android:layout_centerInParent="true"
+                        android:src="@drawable/mb_new_logo2" />
+
+                    <RelativeLayout
+                        android:id="@+id/rllogin"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="end"
+                        android:layout_margin="@dimen/toolbars_login_m"
+                        android:layout_marginEnd="@dimen/toolbars_login_end_m"
+                        android:layout_alignParentEnd="true"
+                        android:layout_centerVertical="true"
+                        android:visibility="visible"
+                        android:background="@drawable/rounded_login_bg">
+
+                        <TextView
+                            android:id="@+id/tvlogin"
+                            fontPath="fonts/gotham_book_bold.ttf"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_alignStart="@+id/imgrequestitem"
+                            android:layout_alignEnd="@+id/imgrequestitem"
+                            android:layout_centerInParent="true"
+                            android:layout_marginStart="10dp"
+                            android:layout_marginTop="10dp"
+                            android:layout_marginEnd="10dp"
+                            android:layout_marginBottom="10dp"
+                            android:text="@string/login_sign_up_btn"
+                            android:textColor="#fff" />
+
+                        <ImageView
+                            android:id="@+id/imgrequestitem"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:src="@drawable/request_item"
+                            android:visibility="gone" />
+
+                    </RelativeLayout>
+
+                    <ImageView
+                        android:id="@+id/toolbar_cart"
+                        android:layout_width="@dimen/toolbars_circle_icon"
+                        android:layout_height="@dimen/toolbars_circle_icon"
+                        android:src="@mipmap/cart_icon_"
+                        android:layout_alignParentEnd="true"
+                        android:layout_centerVertical="true"
+                        android:layout_marginStart="15dp"
+                        android:layout_marginEnd="@dimen/toolbars_login_end_m"
+                        android:visibility="gone"
+                        android:scaleType="fitXY"
+                        android:onClick="openCart"/>
+
+                    <!--<de.hdodenhof.circleimageview.CircleImageView-->
+                        <!--android:id="@+id/toolbar_cart"-->
+                        <!--android:layout_width="@dimen/toolbars_circle_icon"-->
+                        <!--android:layout_height="@dimen/toolbars_circle_icon"-->
+                        <!--android:src="@mipmap/cart_icon"-->
+                        <!--android:layout_alignParentEnd="true"-->
+                        <!--android:layout_centerVertical="true"-->
+                        <!--android:layout_marginStart="15dp"-->
+                        <!--android:layout_marginEnd="@dimen/toolbars_login_end_m"-->
+                        <!--android:visibility="gone"-->
+                        <!--android:onClick="openCart"-->
+                        <!--app:civ_circle_background_color="@color/colorOrangeTitle"-->
+                        <!--app:civ_border_width="0dp"-->
+                        <!--app:civ_border_color="@android:color/transparent"/>-->
+
+                    <RelativeLayout
+                        android:id="@+id/toolbar_cart_notification"
+                        android:layout_marginEnd="-8dp"
+                        android:layout_alignTop="@id/toolbar_cart"
+                        android:layout_alignEnd="@id/toolbar_cart"
+                        android:background="@drawable/round_dot"
+                        android:visibility="gone"
+                        android:layout_width="18dp"
+                        android:layout_height="18dp">
+
+                        <TextView
+                            android:id="@+id/toolbar_cart_notification_count"
+                            android:text="16"
+                            android:textSize="11dp"
+                            android:padding="1dp"
+                            android:textColor="@android:color/white"
+                            android:layout_centerInParent="true"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content" />
+
+                    </RelativeLayout>
+
+                </RelativeLayout>
+
+                <!--<ImageView-->
+                    <!--android:layout_width="140dp"-->
+                    <!--android:layout_height="50dp"-->
+                    <!--android:layout_gravity="center"-->
+                    <!--android:src="@drawable/mb_new_logo2" />-->
+
+                <!--<RelativeLayout-->
+                    <!--android:id="@+id/rllogin"-->
+                    <!--android:layout_width="wrap_content"-->
+                    <!--android:layout_height="wrap_content"-->
+                    <!--android:layout_gravity="end"-->
+                    <!--android:layout_margin="10dp"-->
+                    <!--android:layout_marginEnd="15dp"-->
+                    <!--android:background="@drawable/rounded_login_bg">-->
+
+                    <!--<TextView-->
+                        <!--android:id="@+id/tvlogin"-->
+                        <!--fontPath="fonts/gotham_book_bold.ttf"-->
+                        <!--android:layout_width="wrap_content"-->
+                        <!--android:layout_height="wrap_content"-->
+                        <!--android:layout_alignEnd="@+id/imgrequestitem"-->
+                        <!--android:layout_alignStart="@+id/imgrequestitem"-->
+                        <!--android:layout_centerInParent="true"-->
+                        <!--android:layout_margin="10dp"-->
+                        <!--android:text="Login / Sign Up"-->
+                        <!--android:textColor="#fff" />-->
+
+                    <!--<ImageView-->
+                        <!--android:id="@+id/imgrequestitem"-->
+                        <!--android:layout_width="wrap_content"-->
+                        <!--android:layout_height="wrap_content"-->
+                        <!--android:src="@drawable/request_item"-->
+                        <!--android:visibility="gone" />-->
+
+                <!--</RelativeLayout>-->
+
+            </android.support.v7.widget.Toolbar>
+
+        </android.support.design.widget.AppBarLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+
+            <android.support.v4.view.ViewPager
+                android:id="@+id/viewpager"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_above="@+id/rl"
+                android:layout_marginBottom="52dp" />
+
+            <RelativeLayout
+                android:id="@+id/tl"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true">
+
+                <android.support.design.widget.TabLayout
+                    android:id="@+id/tabs"
+                    android:layout_width="match_parent"
+                    android:layout_height="52dp"
+                    android:layout_centerHorizontal="true"
+                    android:background="@color/mainColorV3"
+                    app:tabGravity="fill"
+                    app:tabIndicatorColor="@color/colorbutton"
+                    app:tabMaxWidth="0dp"
+                    app:tabMode="fixed"
+                    app:tabPaddingEnd="5dp"
+                    app:tabPaddingStart="5dp"
+                    app:tabSelectedTextColor="@color/colorbutton"
+                    app:tabTextAppearance="@style/MineCustomTabText"
+                    app:tabTextColor="#636567" />
+
+            </RelativeLayout>
+
+            <LinearLayout
+                android:id="@+id/content"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_above="@+id/rl"
+                android:layout_marginBottom="52dp"
+                android:orientation="horizontal"></LinearLayout>
+        </RelativeLayout>
+
+    </LinearLayout>
+
+    <include
+        android:id="@+id/list"
+        style="@style/NoactionBar"
+        layout="@layout/navigation_drawer"
+        android:layout_width="250dp"
+        android:layout_height="match_parent"
+        android:layout_gravity="left|start" />
+
+
+</android.support.v4.widget.DrawerLayout>

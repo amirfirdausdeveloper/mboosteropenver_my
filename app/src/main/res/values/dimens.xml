@@ -1,0 +1,233 @@
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+
+    <!--Toolbar-->
+    <dimen name="toolbars_text">20dp</dimen>
+    <dimen name="toolbars_circle_icon">35dp</dimen>
+    <dimen name="toolbars_burger_left_padding">2dp</dimen>
+    <dimen name="toolbars_login_m">8dp</dimen>
+    <dimen name="toolbars_login_end_m">10dp</dimen>
+    <dimen name="toolbars_logo_w">120dp</dimen>
+    <dimen name="toolbars_logo_h">40dp</dimen>
+
+    <!--CustomLayout Dimension-->
+    <dimen name="customlayout6curve">15dp</dimen>
+    <dimen name="customlayout4curve">20dp</dimen>
+    <dimen name="custombutton_bottom_curve">8dp</dimen>
+    <dimen name="custombutton_bottom_right_curve">30dp</dimen>
+
+    <!--Event-->
+    <dimen name="item_event_ev_icon_w">100dp</dimen>
+    <dimen name="item_event_ev_icon_h">20dp</dimen>
+    <dimen name="item_event_ev_icon_text">10sp</dimen>
+    <dimen name="item_event_ev_icon_spacing">8dp</dimen>
+    <dimen name="item_event_ev_icon_right_p">3dp</dimen>
+    <dimen name="item_event_img_side_m">12dp</dimen>
+    <dimen name="item_event_promo_w">30dp</dimen>
+    <dimen name="item_event_promo_h">40dp</dimen>
+    <dimen name="item_event_promo_p">5dp</dimen>
+    <dimen name="event_list_top_padding">5dp</dimen>
+
+    <!--ProductModel list search-->
+    <dimen name="product_list_tag_w">29dp</dimen>
+    <dimen name="product_list_tag_h">35dp</dimen>
+    <dimen name="product_grid_top_m">5dp</dimen>
+    <dimen name="product_list_price_padding">3dp</dimen>
+    <dimen name="product_list_or_text">5sp</dimen>
+    <dimen name="product_list_or_m">5dp</dimen>
+    <dimen name="product_list_price_ori_h">15dp</dimen>
+    <dimen name="product_list_image_side">3dp</dimen>
+    <dimen name="product_list_image_btm_p">8dp</dimen>
+    <dimen name="product_list_divider">1dp</dimen>
+
+    <!--ProductModel list item-->
+    <dimen name="item_product_list_h">290dp</dimen>
+    <dimen name="item_product_voucher_text">10sp</dimen>
+    <dimen name="item_product_voucher_text_min">5sp</dimen>
+    <dimen name="item_product_voucher_text_w">60dp</dimen>
+    <dimen name="item_product_voucher_h">23dp</dimen>
+    <dimen name="item_product_voucher_m">16dp</dimen>
+    <dimen name="item_product_pv_right_m">12dp</dimen>
+    <dimen name="item_product_voucher_calculate_value">15dp</dimen>
+    <dimen name="item_product_voucher_spacing">4dp</dimen>
+    <dimen name="item_product_voucher_btm_m">8dp</dimen>
+    <dimen name="item_product_promo_m">1dp</dimen>
+    <dimen name="item_product_promo_img_p">3dp</dimen>
+    <dimen name="item_product_price_text_w">80dp</dimen>
+    <dimen name="item_product_promo_text">10sp</dimen>
+    <dimen name="item_product_price_ori">10sp</dimen>
+    <dimen name="item_product_price_ori_auto_min_size">6sp</dimen>
+    <dimen name="item_product_price_text">13sp</dimen>
+    <dimen name="item_product_price_auto_min_size">8sp</dimen>
+    <dimen name="item_product_price_text_min">5sp</dimen>
+    <dimen name="item_product_mppv_text">11sp</dimen>
+    <dimen name="item_product_rewards_text">5sp</dimen>
+
+    <!--ProductModel-->
+    <dimen name="product_selector_m">5dp</dimen>
+    <dimen name="product_divier_m">8dp</dimen>
+    <dimen name="product_rewards_text">15sp</dimen>
+    <dimen name="product_select_payment">13sp</dimen>
+    <dimen name="product_radio_btn">20dp</dimen>
+    <dimen name="product_select_space">10dp</dimen>
+    <dimen name="product_price_space">9dp</dimen>
+    <dimen name="product_plus_space">13dp</dimen>
+    <dimen name="product_price_w">120dp</dimen>
+    <dimen name="product_price_h">25dp</dimen>
+    <dimen name="product_price_container_h">29dp</dimen>
+    <dimen name="product_plus_text">15sp</dimen>
+    <dimen name="product_option_top_m">10dp</dimen>
+    <dimen name="product_option_w">170dp</dimen>
+    <dimen name="product_option_h">28dp</dimen>
+    <dimen name="product_option_icon_h">15dp</dimen>
+    <dimen name="product_option_icon_w">10dp</dimen>
+    <dimen name="product_option_text_p">3dp</dimen>
+    <dimen name="product_option_text">10sp</dimen>
+    <dimen name="product_option_name_r_m">30dp</dimen>
+    <dimen name="product_option_name_w">90dp</dimen>
+    <dimen name="product_option_quantity_w">40dp</dimen>
+    <dimen name="product_quantity_right_m">8dp</dimen>
+
+    <dimen name="event_ev_icon">50dp</dimen>
+    <dimen name="event_ev_icon_m">5dp</dimen>
+    <dimen name="e_voucher_text">12sp</dimen>
+    <dimen name="e_voucher_text_top_m">5dp</dimen>
+    <dimen name="event_quantity">80dp</dimen>
+    <dimen name="event_details_spinner_text">10sp</dimen>
+    <dimen name="event_ev_icon_right_m">8dp</dimen>
+    <dimen name="event_ev_icon_w">140dp</dimen>
+    <dimen name="event_ev_icon_h">45dp</dimen>
+    <dimen name="event_ev_custom_h">25dp</dimen>
+    <dimen name="event_ev_icon_text">12sp</dimen>
+    <dimen name="event_ev_icon_text_m">8dp</dimen>
+
+    <!--Profile-->
+    <dimen name="profile_mti_btn_h">50dp</dimen>
+    <dimen name="profile_btn_text">16sp</dimen>
+    <dimen name="profile_btn_spacing">20dp</dimen>
+
+    <dimen name="event_spinner_margin_container">4dp</dimen>
+    <dimen name="event_spinner_margin">10dp</dimen>
+    <dimen name="event_spinner_margin_top">3dp</dimen>
+    <dimen name="event_edittext_margin">5dp</dimen>
+    <dimen name="event_spinner_title_w">70dp</dimen>
+    <dimen name="event_spinner_title_top">4dp</dimen>
+    <dimen name="event_quantity_w">80dp</dimen>
+    <dimen name="event_quantity_h">30dp</dimen>
+
+    <!--Shopping Cart-->
+    <dimen name="shopping_cart_address_text">14sp</dimen>
+    <dimen name="shopping_cart_name_text">12sp</dimen>
+    <dimen name="shopping_cart_price_text">10sp</dimen>
+    <dimen name="shopping_cart_list_btm_m">30dp</dimen>
+    <dimen name="shopping_cart_checkout_btn_h">50dp</dimen>
+    <dimen name="shopping_cart_checkout_text">17sp</dimen>
+    <dimen name="shopping_cart_checkout_text_w">110dp</dimen>
+    <dimen name="shopping_cart_checkout_price_spacing">5dp</dimen>
+    <dimen name="shopping_cart_btn_m">5dp</dimen>
+
+    <dimen name="shopping_address_top_margin">10dp</dimen>
+    <dimen name="shopping_address_top_header_m_top">15dp</dimen>
+    <dimen name="shopping_address_top_header_m_btm">10dp</dimen>
+
+    <!--Shopping cart Header-->
+    <dimen name="shopping_cart_header_text">16sp</dimen>
+    <dimen name="shopping_cart_title">14sp</dimen>
+    <dimen name="shopping_cart_info">12sp</dimen>
+    <dimen name="shopping_cart_edit">15sp</dimen>
+    <dimen name="shopping_cart_top_side">18dp</dimen>
+
+    <!--Shopping cart footer-->
+    <dimen name="shopping_footer_info">12sp</dimen>
+    <dimen name="shopping_footer_m_top">10dp</dimen>
+    <dimen name="shopping_footer_side_padding">10dp</dimen>
+    <dimen name="shopping_footer_bottom_space">20dp</dimen>
+    <dimen name="shopping_footer_flag">15dp</dimen>
+    <dimen name="shopping_footer_flag_l_m">5dp</dimen>
+
+    <!--Request An Item-->
+    <dimen name="request_item_text">18sp</dimen>
+    <dimen name="request_item_icon">40dp</dimen>
+    <dimen name="request_item_icon_text">14sp</dimen>
+    <dimen name="request_item_btn_h">37dp</dimen>
+    <dimen name="request_item_btn_w">180dp</dimen>
+
+    <!--Rewards-->
+    <dimen name="rewards_point_icon">40dp</dimen>
+    <dimen name="rewards_point_container_top_m">10dp</dimen>
+    <dimen name="rewards_point_container_btm_m">5dp</dimen>
+    <dimen name="rewards_point_container_side_m">30dp</dimen>
+    <dimen name="rewards_point_container_side_p">12dp</dimen>
+    <dimen name="rewards_point_container_h">70dp</dimen>
+    <dimen name="rewards_point_point_w">105dp</dimen>
+    <dimen name="rewards_point_header_text">8sp</dimen>
+    <dimen name="rewards_point_point_text">16sp</dimen>
+    <dimen name="rewards_point_point_sub_text">10sp</dimen>
+    <dimen name="rewards_point_name">16sp</dimen>
+    <dimen name="rewards_space">5dp</dimen>
+
+    <dimen name="rewards_voucher_h">95dp</dimen>
+    <dimen name="rewards_voucher_side">15dp</dimen>
+    <dimen name="rewards_voucher_icon_w">110dp</dimen>
+    <dimen name="rewards_voucher_icon_h">95dp</dimen>
+    <dimen name="rewards_voucher_icon_p">10dp</dimen>
+    <dimen name="rewards_voucher_info_p">16dp</dimen>
+    <dimen name="rewards_voucher_info_p_end">8dp</dimen>
+    <dimen name="rewards_voucher_text_m">20dp</dimen>
+    <dimen name="rewards_voucher_count_you_have_text">14sp</dimen>
+    <dimen name="rewards_voucher_count_h">20dp</dimen>
+    <dimen name="rewards_voucher_count_h_withmyr">50dp</dimen>
+    <dimen name="rewards_voucher_count_left_m">10dp</dimen>
+    <dimen name="rewards_voucher_count_left_w">70dp</dimen>
+    <dimen name="rewards_voucher_count_w">190dp</dimen>
+    <dimen name="rewards_voucher_count_text_w">90dp</dimen>
+    <dimen name="rewards_voucher_count_space">6dp</dimen>
+    <dimen name="rewards_voucher_price_left_m">3dp</dimen>
+    <dimen name="rewards_voucher_text">13sp</dimen>
+    <dimen name="rewards_voucher_text_min">9sp</dimen>
+    <dimen name="rewards_voucher_total_value_text">8sp</dimen>
+
+    <!--VoucherModel select-->
+    <dimen name="voucher_header_space">70dp</dimen>
+    <dimen name="voucher_header_top_m">20dp</dimen>
+    <dimen name="voucher_select_summary_count_p">5dp</dimen>
+    <dimen name="voucher_divider_top">20dp</dimen>
+    <dimen name="voucher_save_btn_h">50dp</dimen>
+    <dimen name="voucher_save_btn_w">200dp</dimen>
+    <dimen name="voucher_save_m_top">30dp</dimen>
+
+    <!--Conversion-->
+    <dimen name="conversaion_title">15sp</dimen>
+    <dimen name="conversion_voucher_h">70dp</dimen>
+    <dimen name="conversion_voucher_icon">60dp</dimen>
+    <dimen name="conversion_voucher_count_w">70dp</dimen>
+    <dimen name="conversion_voucher_count_container_w">160dp</dimen>
+    <dimen name="conversion_voucher_side_padding">15dp</dimen>
+    <dimen name="conversion_count_h">30dp</dimen>
+    <dimen name="conversion_count_padding">10dp</dimen>
+    <dimen name="conversion_count_m">15dp</dimen>
+    <dimen name="conversion_single_total_w">50dp</dimen>
+    <dimen name="conversion_icon_space">5dp</dimen>
+    <dimen name="conversion_dropdown_icon">10dp</dimen>
+    <dimen name="conversion_right_margin">30dp</dimen>
+    <dimen name="conversion_equal_symbol_margin">5dp</dimen>
+    <dimen name="conversion_text">13sp</dimen>
+    <dimen name="conversion_total_top_m">10dp</dimen>
+    <dimen name="conversion_total_container_w">200dp</dimen>
+    <dimen name="conversion_total_title_w">100dp</dimen>
+    <dimen name="conversion_header_spae">10dp</dimen>
+    <dimen name="conversion_btn_top_m">8dp</dimen>
+    <dimen name="conversion_btn_h">30dp</dimen>
+
+    <!--Choose Country-->
+    <dimen name="country_flag_w">300dp</dimen>
+    <dimen name="country_flag_h">150dp</dimen>
+    <dimen name="country_flag_m_top">6dp</dimen>
+    <dimen name="country_flag_m_side">8dp</dimen>
+    <dimen name="country_flag_m_space">20dp</dimen>
+
+</resources>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#f8a23f</color>
+    <color name="colorOrangeTitle">#fcd437</color>
+    <color name="colorDarkGreyTitle">#636567</color>
+    <color name="grey">#ededed</color>
+
+    <color name="colorbutton">#f8a23f</color>
+    <color name="colorRed">#F15A29</color>
+
+    <color name="product_list_tag_color">#fbb040</color>
+    <color name="product_list_tag_color1">#f7941d</color>
+    <color name="product_list_tag_color2">#f15a29</color>
+    <color name="colorOrangeLight">#fbd52a</color>
+    <color name="colorGray">#747474</color>
+    <color name="mainColorV3">#fcd437</color>
+
+    <color name="upload_icon_text">#50bfe6</color>
+
+    <color name="colorProductOrange">#f9af48</color>
+
+</resources>

@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:id="@+id/tl"
+        android:layout_margin="15dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/tvaddress"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="100dp"
+            android:textSize="16dp" />
+
+        <TextView
+            android:id="@+id/status"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:gravity="right"
+            android:textSize="17dp" />
+
+        <RelativeLayout
+            android:id="@+id/rldefault"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/tvaddress">
+
+            <TextView
+                android:id="@+id/tvmakedefault"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:text="@string/make_default_shipping_address"
+                android:textSize="13dp" />
+
+            <android.support.v7.widget.SwitchCompat
+                android:id="@+id/default_switch"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentEnd="true" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/rl_editdelete"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/rldefault"
+            android:layout_marginTop="5dp">
+
+            <RelativeLayout
+                android:id="@+id/rl_resend"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:background="@drawable/customlayout_borderred2">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/tv_resend"
+                    android:layout_marginBottom="5dp"
+                    android:layout_marginEnd="15dp"
+                    android:layout_marginStart="15dp"
+                    android:layout_marginTop="5dp"
+                    android:text="RESEND VERIFICATION EMAIL"
+                    android:textColor="#fb9301"
+                    android:textSize="12dp" />
+
+            </RelativeLayout>
+
+            <TextView
+                android:id="@+id/coundown"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text=""
+                android:layout_marginStart="10dp"
+                android:textColor="#fb9301"
+                android:layout_centerVertical="true"
+                android:layout_toEndOf="@+id/rl_resend"
+                android:textSize="12dp" />
+
+            <ImageView
+                android:id="@+id/edit_address"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_marginEnd="5dp"
+                android:layout_toStartOf="@+id/delete_address"
+                android:src="@drawable/grey_edit" />
+
+            <ImageView
+                android:id="@+id/delete_address"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_alignParentEnd="true"
+                android:layout_marginEnd="5dp"
+                android:src="@drawable/grey_delete" />
+
+        </RelativeLayout>
+    </RelativeLayout>
+
+    <View
+        android:layout_below="@+id/rl"
+        android:background="@color/colorDarkGreyTitle"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"/>
+</RelativeLayout>
